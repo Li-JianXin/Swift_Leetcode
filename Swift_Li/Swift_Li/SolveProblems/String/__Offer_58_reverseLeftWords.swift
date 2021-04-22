@@ -16,7 +16,7 @@ import Foundation
 class String_Offer_58 {
     func reverseLeftWords(_ s: String, _ n: Int) -> String {
         // 字符串转字符数组 [Character]
-        var sArray = Array(s)
+        let sArray = Array(s)
         var newStirng = String()
         for i in n..<sArray.count {
             // 将字符转字符串
@@ -42,33 +42,5 @@ class String_Offer_58 {
          无默认值
          */
         // return String(s.dropFirst(n) + s.prefix(n))
-        
-        // 遍历
-        let sArry = Array(s)
-        var newString = String()
-        newString += sArry[n..<sArry.count]
-        newString += sArry[0..<n]
-        
-        // 数组遍历的写法
-        for i in 0..<sArry.count {
-            print(sArry[i])
-        }
-        for element in sArry {
-            print(element)
-        }
-        // 元组遍历
-        for (index, element) in sArry.enumerated() {
-            print("index \(index) , element: + \(element)")
-        }
-        for s in sArry.enumerated() {
-            print("元组：\(s)")
-        }
-        // 倒序遍历
-        for _ in sArray.reversed(){
-            
-        }
-        
-    
-        return newString
     }
 }

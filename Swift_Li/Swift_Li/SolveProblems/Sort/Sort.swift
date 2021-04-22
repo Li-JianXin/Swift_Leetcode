@@ -93,7 +93,6 @@ class Sort {
     }
     
 // MARK: - O(nlogn)
-    
     /**
      归并排序
      分治思想，将已有序的子序列合并，得到完全有序的序列；即先使每个子序列有序，再使子序列段间有序。若将两个有序表合并成一个有序表，称为2-路归并。
@@ -141,8 +140,27 @@ class Sort {
      通过一趟排序将待排记录分隔成独立的两部分，其中一部分记录的关键字均比另一部分的关键字小，则可分别对这两部分记录继续进行排序，以达到整个序列有序
      分治思想，挑一个元素作为基准，把数组分成2部分，如比基准小的放左边，比基准大的放右边。一次结束后，基准处在中间。递归
      */
-    func quickSort(_ nums: inout [Int]) {
-        
+    func quickSort(_ nums: inout [Int], _ left: Int, _ right: Int) {
+        let left = 0
+        let right = nums.count - 1
+        if left < right {
+            let partitionIndex = partition(&nums, left, right)
+            quickSort(&nums, left, partitionIndex-1)
+            quickSort(&nums, partitionIndex+1, right)
+        }
+    }
+    // 获取分区点
+    func partition(_ nums: inout [Int], _ left: Int, _ right: Int) -> Int {
+        let pivot = left
+        var index = pivot + 1
+        for i in index...right {
+            if nums[i] < nums[pivot] {
+                nums.swapAt(i, index)
+                index+=1
+            }
+        }
+        nums.swapAt(pivot, index-1)
+        return index - 1
     }
     
     
