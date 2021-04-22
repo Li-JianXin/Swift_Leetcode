@@ -56,7 +56,6 @@ class LinkList_ReverseList_206 {
             newHead = p
             p = tmp
         }
-
         return newHead
     }
 }

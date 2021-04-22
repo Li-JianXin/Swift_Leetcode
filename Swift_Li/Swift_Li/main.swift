@@ -79,3 +79,9 @@ var array11 = [1,8,6,2,5,4,8,3,7]
 let maxArea = Array_MaxArea_11()
 let area = maxArea.maxArea1(array11)
 print(area)
+print("==Sort==========[ Sort ]=====")
+var arraySort = [3,5,1,8,10,2,7,9]
+let sort = Sort()
+//sort.mergeSort(&arraySort)
+let sort1 = sort.mergeSort(&arraySort)
+print(sort1)
