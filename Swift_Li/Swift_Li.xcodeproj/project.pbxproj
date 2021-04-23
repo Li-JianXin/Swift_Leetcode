@@ -22,6 +22,8 @@
 		B89B8D7E2626E2B200C4627A /* __Offer_58_reverseLeftWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89B8D7D2626E2B200C4627A /* __Offer_58_reverseLeftWords.swift */; };
 		B8C578132630298400F23F36 /* _70_climbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C578122630298400F23F36 /* _70_climbStairs.swift */; };
 		B8C578182631178700F23F36 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C578172631178700F23F36 /* Sort.swift */; };
+		B8C5E75B2632CFCB00F23F36 /* _88_merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E75A2632CFCB00F23F36 /* _88_merge.swift */; };
+		B8C5E7602632EF7900F23F36 /* _75_sortColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E75F2632EF7900F23F36 /* _75_sortColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +55,8 @@
 		B89B8D7D2626E2B200C4627A /* __Offer_58_reverseLeftWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Offer_58_reverseLeftWords.swift; sourceTree = "<group>"; };
 		B8C578122630298400F23F36 /* _70_climbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _70_climbStairs.swift; sourceTree = "<group>"; };
 		B8C578172631178700F23F36 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		B8C5E75A2632CFCB00F23F36 /* _88_merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _88_merge.swift; sourceTree = "<group>"; };
+		B8C5E75F2632EF7900F23F36 /* _75_sortColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _75_sortColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,10 +158,12 @@
 		B816303B26241909005E621C /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				B816303C26241946005E621C /* _704_searchInset.swift */,
-				B84A71E7262D81DA0009AB69 /* _27_removeElement.swift */,
-				B84A7240262ED4B00009AB69 /* _283_moveZeros.swift */,
 				B84A7243262EF8240009AB69 /* _11_maxArea.swift */,
+				B84A71E7262D81DA0009AB69 /* _27_removeElement.swift */,
+				B8C5E75F2632EF7900F23F36 /* _75_sortColors.swift */,
+				B8C5E75A2632CFCB00F23F36 /* _88_merge.swift */,
+				B84A7240262ED4B00009AB69 /* _283_moveZeros.swift */,
+				B816303C26241946005E621C /* _704_searchInset.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -268,11 +274,13 @@
 				B84A7241262ED4B00009AB69 /* _283_moveZeros.swift in Sources */,
 				B81620472623F1C9005E621C /* main.swift in Sources */,
 				B81620572623F23B005E621C /* _206_reverseList.swift in Sources */,
+				B8C5E7602632EF7900F23F36 /* _75_sortColors.swift in Sources */,
 				B84A7244262EF8240009AB69 /* _11_maxArea.swift in Sources */,
 				B816304126241F4C005E621C /* LILinkList.swift in Sources */,
 				B81620582623F23B005E621C /* ListNode.swift in Sources */,
 				B81630382623FE6A005E621C /* LIStack.swift in Sources */,
 				B89B8D7E2626E2B200C4627A /* __Offer_58_reverseLeftWords.swift in Sources */,
+				B8C5E75B2632CFCB00F23F36 /* _88_merge.swift in Sources */,
 				B8C578182631178700F23F36 /* Sort.swift in Sources */,
 				B8C578132630298400F23F36 /* _70_climbStairs.swift in Sources */,
 				B816303D26241946005E621C /* _704_searchInset.swift in Sources */,
