@@ -16,3 +16,7 @@ let sort75 = SortColors_75()
 sort75.sortColors1(&nums1)
 print(":\(nums1)")
 
+var array = [5,3,1,7,9]
+let jd6 = JD_SubSort_6()
+let a = jd6.subSort(array)
+print(a)
