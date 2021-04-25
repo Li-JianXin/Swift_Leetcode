@@ -18,5 +18,5 @@ print(":\(nums1)")
 
 var array = [5,3,1,7,9]
 let jd6 = JD_SubSort_6()
-let a = jd6.subSort(array)
+let a = jd6.subSort1(array)
 print(a)

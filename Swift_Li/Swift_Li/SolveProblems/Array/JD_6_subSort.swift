@@ -26,6 +26,7 @@ class JD_SubSort_6 {
          从前向后扫描数组，判断当前array[i]是否比max小，是将last置为当前array下标i，否则更新max
          从后向前扫描数组，判断当前的array[len - i - 1]是否比min大，是的话将firstg更新，否则更新min
          */
+      
         var left = -1
         var right = -1
         
@@ -53,6 +54,26 @@ class JD_SubSort_6 {
             }
         }
         return [right ,left]
+    }
+    
+    func subSort1(_ array: [Int]) -> [Int] {
+        /*
+         对原数组排序，将排序后的数组与原数组对比，返回最开始和最后元素不同的索引
+         */
+        let sortArray = array.sorted() // 默认从小到大排序
+        var m = -1
+        var n = -1
+        for i in 0..<array.count {
+            let value = array[i]
+            let sortValue = sortArray[i]
+            if value != sortValue {
+                if m == -1 {
+                    m = i
+                }
+                n = i
+            }
+        }
+        return [m, n]
     }
     
 }
