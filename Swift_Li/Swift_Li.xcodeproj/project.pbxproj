@@ -26,12 +26,15 @@
 		B861A365263BEF1600486781 /* _145_二叉树的后序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A364263BEF1600486781 /* _145_二叉树的后序遍历.swift */; };
 		B861A36A263BF74D00486781 /* _Offer24_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A369263BF74D00486781 /* _Offer24_反转链表.swift */; };
 		B861A36F263C01A500486781 /* _Offer18_删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A36E263C01A500486781 /* _Offer18_删除链表的节点.swift */; };
+		B861A378263C2CD400486781 /* _164_最大间距.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A377263C2CD400486781 /* _164_最大间距.swift */; };
+		B861A37C263C2ED900486781 /* _1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A37B263C2ED900486781 /* _1_两数之和.swift */; };
+		B861A381263C39B600486781 /* _7_整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A380263C39B600486781 /* _7_整数反转.swift */; };
 		B89B8D7E2626E2B200C4627A /* Offer_58_reverseLeftWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */; };
 		B8C578132630298400F23F36 /* _70_climbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C578122630298400F23F36 /* _70_climbStairs.swift */; };
 		B8C578182631178700F23F36 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C578172631178700F23F36 /* Sort.swift */; };
-		B8C5E75B2632CFCB00F23F36 /* _88_merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E75A2632CFCB00F23F36 /* _88_merge.swift */; };
-		B8C5E7602632EF7900F23F36 /* _75_sortColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E75F2632EF7900F23F36 /* _75_sortColors.swift */; };
-		B8C5E7642635924100F23F36 /* JD_6_subSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E7632635924000F23F36 /* JD_6_subSort.swift */; };
+		B8C5E75B2632CFCB00F23F36 /* _88_合并2个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E75A2632CFCB00F23F36 /* _88_合并2个有序数组.swift */; };
+		B8C5E7602632EF7900F23F36 /* _75_颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E75F2632EF7900F23F36 /* _75_颜色分类.swift */; };
+		B8C5E7642635924100F23F36 /* 金典_6_部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E7632635924000F23F36 /* 金典_6_部分排序.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,12 +70,15 @@
 		B861A364263BEF1600486781 /* _145_二叉树的后序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_145_二叉树的后序遍历.swift"; sourceTree = "<group>"; };
 		B861A369263BF74D00486781 /* _Offer24_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_Offer24_反转链表.swift"; sourceTree = "<group>"; };
 		B861A36E263C01A500486781 /* _Offer18_删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_Offer18_删除链表的节点.swift"; sourceTree = "<group>"; };
+		B861A377263C2CD400486781 /* _164_最大间距.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_164_最大间距.swift"; sourceTree = "<group>"; };
+		B861A37B263C2ED900486781 /* _1_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_两数之和.swift"; sourceTree = "<group>"; };
+		B861A380263C39B600486781 /* _7_整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_7_整数反转.swift"; sourceTree = "<group>"; };
 		B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_58_reverseLeftWords.swift; sourceTree = "<group>"; };
 		B8C578122630298400F23F36 /* _70_climbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _70_climbStairs.swift; sourceTree = "<group>"; };
 		B8C578172631178700F23F36 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
-		B8C5E75A2632CFCB00F23F36 /* _88_merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _88_merge.swift; sourceTree = "<group>"; };
-		B8C5E75F2632EF7900F23F36 /* _75_sortColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _75_sortColors.swift; sourceTree = "<group>"; };
-		B8C5E7632635924000F23F36 /* JD_6_subSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_6_subSort.swift; sourceTree = "<group>"; };
+		B8C5E75A2632CFCB00F23F36 /* _88_合并2个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_88_合并2个有序数组.swift"; sourceTree = "<group>"; };
+		B8C5E75F2632EF7900F23F36 /* _75_颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_75_颜色分类.swift"; sourceTree = "<group>"; };
+		B8C5E7632635924000F23F36 /* 金典_6_部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "金典_6_部分排序.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 		B81620522623F23B005E621C /* SolveProblems */ = {
 			isa = PBXGroup;
 			children = (
+				B861A37F263C39A500486781 /* 整数 */,
 				B861A356263BB95D00486781 /* 树 */,
 				B8C578162631177900F23F36 /* Sort */,
 				B8C57809263028E300F23F36 /* 递归 */,
@@ -180,12 +187,14 @@
 			children = (
 				B84A7243262EF8240009AB69 /* _11_maxArea.swift */,
 				B84A71E7262D81DA0009AB69 /* _27_removeElement.swift */,
-				B8C5E75F2632EF7900F23F36 /* _75_sortColors.swift */,
-				B8C5E75A2632CFCB00F23F36 /* _88_merge.swift */,
+				B8C5E75F2632EF7900F23F36 /* _75_颜色分类.swift */,
+				B8C5E75A2632CFCB00F23F36 /* _88_合并2个有序数组.swift */,
 				B84A7240262ED4B00009AB69 /* _283_moveZeros.swift */,
 				B816303C26241946005E621C /* _704_searchInset.swift */,
-				B8C5E7632635924000F23F36 /* JD_6_subSort.swift */,
+				B8C5E7632635924000F23F36 /* 金典_6_部分排序.swift */,
 				B86191B72639632500486781 /* Offer_63_maxProfit.swift */,
+				B861A377263C2CD400486781 /* _164_最大间距.swift */,
+				B861A37B263C2ED900486781 /* _1_两数之和.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -214,6 +223,14 @@
 				B861A35D263BDFF000486781 /* LITree.swift */,
 			);
 			path = "树";
+			sourceTree = "<group>";
+		};
+		B861A37F263C39A500486781 /* 整数 */ = {
+			isa = PBXGroup;
+			children = (
+				B861A380263C39B600486781 /* _7_整数反转.swift */,
+			);
+			path = "整数";
 			sourceTree = "<group>";
 		};
 		B89B8D7C2626E1F100C4627A /* String */ = {
@@ -315,21 +332,24 @@
 				B84A7241262ED4B00009AB69 /* _283_moveZeros.swift in Sources */,
 				B81620472623F1C9005E621C /* main.swift in Sources */,
 				B81620572623F23B005E621C /* _206_反转链表.swift in Sources */,
-				B8C5E7602632EF7900F23F36 /* _75_sortColors.swift in Sources */,
+				B8C5E7602632EF7900F23F36 /* _75_颜色分类.swift in Sources */,
+				B861A378263C2CD400486781 /* _164_最大间距.swift in Sources */,
 				B861A361263BEAB500486781 /* _94_二叉树的中序遍历.swift in Sources */,
 				B86191B82639632500486781 /* Offer_63_maxProfit.swift in Sources */,
 				B84A7244262EF8240009AB69 /* _11_maxArea.swift in Sources */,
-				B8C5E7642635924100F23F36 /* JD_6_subSort.swift in Sources */,
+				B8C5E7642635924100F23F36 /* 金典_6_部分排序.swift in Sources */,
 				B816304126241F4C005E621C /* LILinkList.swift in Sources */,
+				B861A37C263C2ED900486781 /* _1_两数之和.swift in Sources */,
 				B81620582623F23B005E621C /* ListNode.swift in Sources */,
 				B81630382623FE6A005E621C /* LIStack.swift in Sources */,
 				B89B8D7E2626E2B200C4627A /* Offer_58_reverseLeftWords.swift in Sources */,
-				B8C5E75B2632CFCB00F23F36 /* _88_merge.swift in Sources */,
+				B8C5E75B2632CFCB00F23F36 /* _88_合并2个有序数组.swift in Sources */,
 				B8C578182631178700F23F36 /* Sort.swift in Sources */,
 				B8C578132630298400F23F36 /* _70_climbStairs.swift in Sources */,
 				B861A35E263BDFF000486781 /* LITree.swift in Sources */,
 				B861A36A263BF74D00486781 /* _Offer24_反转链表.swift in Sources */,
 				B816303D26241946005E621C /* _704_searchInset.swift in Sources */,
+				B861A381263C39B600486781 /* _7_整数反转.swift in Sources */,
 				B861A365263BEF1600486781 /* _145_二叉树的后序遍历.swift in Sources */,
 				B84A71E8262D81DA0009AB69 /* _27_removeElement.swift in Sources */,
 				B816205F2623F687005E621C /* LIQeue.swift in Sources */,
