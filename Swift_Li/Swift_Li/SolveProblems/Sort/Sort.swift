@@ -79,6 +79,8 @@ class Sort {
     /**
      冒泡排序
      嵌套循环，每次查看相邻的元素，如果逆序，则交换
+     1. 从头开始比较每一对相邻元素，如果第1个比第2个大，就交换它们的位置.  执行完一轮后，最末尾的元素就是最大的元素
+     2. 忽略1中找到的最大元素，重复执行1,(第2次循环结束，倒数第2元素就是倒数第2大的元素) ,直到全部元素有序
      */
     func bubbleSort(_ nums: inout [Int]) {
         for _ in 0..<nums.count {
@@ -164,7 +166,35 @@ class Sort {
     }
     
     
-    
+    /**
+     计数排序
+     */
+    func countingSort(_ nums: inout [Int]) {
+        var max = nums[0]
+        for i in 0..<nums.count {
+            if nums[i] > max {
+                max = nums[i]
+            }
+        }
+        
+        // 元素出现的次数
+        var counts = [Int](repeating: 0, count: max+1)
+        for i in 0..<nums.count {
+            counts[nums[i]]+=1
+        }
+        print(counts)
+        // 按顺序赋值
+        var index = 0
+        for i in 0..<counts.count {
+            while counts[i] > 0 {
+                counts[i]-=1
+                nums[index] = i
+                index+=1
+            }
+            print(i,nums)
+        }
+        
+    }
     
     
     
