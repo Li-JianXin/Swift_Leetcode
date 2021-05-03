@@ -9,15 +9,8 @@ import Foundation
 
 print("Hello, World!")
 
-var array = [3,2,4]
-let twoSum = TwoSum_1()
-let a = twoSum.twoSum1(array, 6)
+var array = [1,2,3,2,2,2,5,4,2]
+let offer39 = Offer_MajorityElement_39()
+let a = offer39.majorityElement(array)
 print(a)
-
-let x = 1534236469
-var r7 = Reverse_7()
-let res = r7.reverse(x)
-print(1<<31)
-print(Int32.max)
-
 

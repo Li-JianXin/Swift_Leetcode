@@ -36,12 +36,22 @@ class Recursion_ClimbStairs_70 {
     func climbStairs2(_ n: Int) -> Int {
         // 每次只走1个或2个楼梯，最后一步也是只能走2步或者1步
         // 复用递归思想，当前方法climbStaris就是走n个台阶的走法
-        if n == 1 { // 递归的终止条件
-            return 1
+        if n <= 2 { // 递归的终止条件
+            return n
         }
-        if n == 2 {
-            return 2
-        }
-        return climbStairs2(n-1) + 1
+        return climbStairs2(n-1) + climbStairs2(n-2)
     }
+    
+    // 动态规划
+    func climStaires(_ n: Int) -> Int {
+        var dp: [Int] = Array.init(repeating: 0, count: n+1)
+         dp[0] = 1
+         dp[1] = 1
+         for i in 2...n {
+             dp[i] = dp[i - 1] + dp[i - 2]
+         }
+         return dp[n]
+    }
+    
+    
 }
