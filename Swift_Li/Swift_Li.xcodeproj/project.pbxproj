@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B802E381264018A000AB96FF /* _160_相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E380264018A000AB96FF /* _160_相交链表.swift */; };
+		B802E38B264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */; };
 		B81620472623F1C9005E621C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620462623F1C9005E621C /* main.swift */; };
 		B81620572623F23B005E621C /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620542623F23B005E621C /* _206_反转链表.swift */; };
 		B81620592623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620562623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift */; };
@@ -54,6 +56,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B802E380264018A000AB96FF /* _160_相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_160_相交链表.swift"; sourceTree = "<group>"; };
+		B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_Offer22_链表倒数第k个字节.swift"; sourceTree = "<group>"; };
 		B81620432623F1C9005E621C /* Swift_Li */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_Li; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81620462623F1C9005E621C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B81620542623F23B005E621C /* _206_反转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
@@ -183,11 +187,13 @@
 			isa = PBXGroup;
 			children = (
 				B861A3922640091A00486781 /* _2_两数相加.swift */,
+				B802E380264018A000AB96FF /* _160_相交链表.swift */,
 				B861A384263C405200486781 /* _203_移除链表元素.swift */,
 				B81620542623F23B005E621C /* _206_反转链表.swift */,
 				B81620562623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift */,
 				B861A36E263C01A500486781 /* _Offer18_删除链表的节点.swift */,
 				B861A369263BF74D00486781 /* _Offer24_反转链表.swift */,
+				B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -222,8 +228,8 @@
 		B861A356263BB95D00486781 /* 树 */ = {
 			isa = PBXGroup;
 			children = (
-				B861A357263BDFC400486781 /* _144_二叉树的前序遍历.swift */,
 				B861A360263BEAB500486781 /* _94_二叉树的中序遍历.swift */,
+				B861A357263BDFC400486781 /* _144_二叉树的前序遍历.swift */,
 				B861A364263BEF1600486781 /* _145_二叉树的后序遍历.swift */,
 			);
 			path = "树";
@@ -361,6 +367,7 @@
 				B8C578132630298400F23F36 /* _70_爬楼梯.swift in Sources */,
 				B861A3932640091A00486781 /* _2_两数相加.swift in Sources */,
 				B861A35E263BDFF000486781 /* LITree.swift in Sources */,
+				B802E381264018A000AB96FF /* _160_相交链表.swift in Sources */,
 				B861A36A263BF74D00486781 /* _Offer24_反转链表.swift in Sources */,
 				B816303D26241946005E621C /* _704_searchInset.swift in Sources */,
 				B861A381263C39B600486781 /* _7_整数反转.swift in Sources */,
@@ -369,6 +376,7 @@
 				B816205F2623F687005E621C /* LIQeue.swift in Sources */,
 				B861A358263BDFC500486781 /* _144_二叉树的前序遍历.swift in Sources */,
 				B84A71EC262E771A0009AB69 /* LIArray.swift in Sources */,
+				B802E38B264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift in Sources */,
 				B861A38B263F838B00486781 /* Offer_39_出现次数超过一半的数字.swift in Sources */,
 				B81620592623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift in Sources */,
 				B861A39B26400BA200486781 /* ListNode.swift in Sources */,
