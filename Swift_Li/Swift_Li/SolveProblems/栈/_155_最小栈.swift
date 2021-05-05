@@ -52,6 +52,7 @@ class MinStack {
 class MinStack1 {
     /**
      使用额外的空间储存当前入栈元素中的最小元素
+     (使用链表也是同样的思想，一个链表节点中除了正常的值，还有当前的最小值)
      */
     var stack: [(Int, Int)] = []
     
