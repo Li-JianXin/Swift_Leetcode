@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B802E381264018A000AB96FF /* _160_相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E380264018A000AB96FF /* _160_相交链表.swift */; };
 		B802E38B264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */; };
+		B802E38F2641467600AB96FF /* _234_回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E38E2641467600AB96FF /* _234_回文链表.swift */; };
+		B802E394264209B600AB96FF /* _Offer25_合并两个反序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E393264209B600AB96FF /* _Offer25_合并两个反序链表.swift */; };
 		B81620472623F1C9005E621C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620462623F1C9005E621C /* main.swift */; };
 		B81620572623F23B005E621C /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620542623F23B005E621C /* _206_反转链表.swift */; };
 		B81620592623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620562623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift */; };
@@ -36,6 +38,8 @@
 		B861A3932640091A00486781 /* _2_两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A3922640091A00486781 /* _2_两数相加.swift */; };
 		B861A39B26400BA200486781 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A39A26400BA200486781 /* ListNode.swift */; };
 		B89B8D7E2626E2B200C4627A /* Offer_58_reverseLeftWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */; };
+		B8BF354226420DD100609E57 /* _141_环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF354126420DD100609E57 /* _141_环形链表.swift */; };
+		B8BF35482643586000609E57 /* _20_有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF35472643586000609E57 /* _20_有效的括号.swift */; };
 		B8C578132630298400F23F36 /* _70_爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C578122630298400F23F36 /* _70_爬楼梯.swift */; };
 		B8C578182631178700F23F36 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C578172631178700F23F36 /* Sort.swift */; };
 		B8C5E75B2632CFCB00F23F36 /* _88_合并2个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E75A2632CFCB00F23F36 /* _88_合并2个有序数组.swift */; };
@@ -58,6 +62,8 @@
 /* Begin PBXFileReference section */
 		B802E380264018A000AB96FF /* _160_相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_160_相交链表.swift"; sourceTree = "<group>"; };
 		B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_Offer22_链表倒数第k个字节.swift"; sourceTree = "<group>"; };
+		B802E38E2641467600AB96FF /* _234_回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_234_回文链表.swift"; sourceTree = "<group>"; };
+		B802E393264209B600AB96FF /* _Offer25_合并两个反序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_Offer25_合并两个反序链表.swift"; sourceTree = "<group>"; };
 		B81620432623F1C9005E621C /* Swift_Li */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_Li; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81620462623F1C9005E621C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B81620542623F23B005E621C /* _206_反转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
@@ -86,6 +92,8 @@
 		B861A3922640091A00486781 /* _2_两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_两数相加.swift"; sourceTree = "<group>"; };
 		B861A39A26400BA200486781 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_58_reverseLeftWords.swift; sourceTree = "<group>"; };
+		B8BF354126420DD100609E57 /* _141_环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_环形链表.swift"; sourceTree = "<group>"; };
+		B8BF35472643586000609E57 /* _20_有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_20_有效的括号.swift"; sourceTree = "<group>"; };
 		B8C578122630298400F23F36 /* _70_爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_70_爬楼梯.swift"; sourceTree = "<group>"; };
 		B8C578172631178700F23F36 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		B8C5E75A2632CFCB00F23F36 /* _88_合并2个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_88_合并2个有序数组.swift"; sourceTree = "<group>"; };
@@ -172,6 +180,7 @@
 		B81620522623F23B005E621C /* SolveProblems */ = {
 			isa = PBXGroup;
 			children = (
+				B8BF35462643584700609E57 /* 栈 */,
 				B861A37F263C39A500486781 /* 整数 */,
 				B861A356263BB95D00486781 /* 树 */,
 				B8C578162631177900F23F36 /* Sort */,
@@ -187,13 +196,16 @@
 			isa = PBXGroup;
 			children = (
 				B861A3922640091A00486781 /* _2_两数相加.swift */,
+				B8BF354126420DD100609E57 /* _141_环形链表.swift */,
 				B802E380264018A000AB96FF /* _160_相交链表.swift */,
 				B861A384263C405200486781 /* _203_移除链表元素.swift */,
 				B81620542623F23B005E621C /* _206_反转链表.swift */,
+				B802E38E2641467600AB96FF /* _234_回文链表.swift */,
 				B81620562623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift */,
 				B861A36E263C01A500486781 /* _Offer18_删除链表的节点.swift */,
-				B861A369263BF74D00486781 /* _Offer24_反转链表.swift */,
 				B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */,
+				B861A369263BF74D00486781 /* _Offer24_反转链表.swift */,
+				B802E393264209B600AB96FF /* _Offer25_合并两个反序链表.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -257,6 +269,14 @@
 				B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		B8BF35462643584700609E57 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				B8BF35472643586000609E57 /* _20_有效的括号.swift */,
+			);
+			path = "栈";
 			sourceTree = "<group>";
 		};
 		B8C57808263028D200F23F36 /* 递归 */ = {
@@ -349,6 +369,7 @@
 				B861A36F263C01A500486781 /* _Offer18_删除链表的节点.swift in Sources */,
 				B861A385263C405200486781 /* _203_移除链表元素.swift in Sources */,
 				B84A7241262ED4B00009AB69 /* _283_moveZeros.swift in Sources */,
+				B8BF35482643586000609E57 /* _20_有效的括号.swift in Sources */,
 				B81620472623F1C9005E621C /* main.swift in Sources */,
 				B861A38F263FF0C800486781 /* _169_多数元素.swift in Sources */,
 				B81620572623F23B005E621C /* _206_反转链表.swift in Sources */,
@@ -360,6 +381,7 @@
 				B8C5E7642635924100F23F36 /* 金典_6_部分排序.swift in Sources */,
 				B816304126241F4C005E621C /* LILinkList.swift in Sources */,
 				B861A37C263C2ED900486781 /* _1_两数之和.swift in Sources */,
+				B802E394264209B600AB96FF /* _Offer25_合并两个反序链表.swift in Sources */,
 				B81630382623FE6A005E621C /* LIStack.swift in Sources */,
 				B89B8D7E2626E2B200C4627A /* Offer_58_reverseLeftWords.swift in Sources */,
 				B8C5E75B2632CFCB00F23F36 /* _88_合并2个有序数组.swift in Sources */,
@@ -373,6 +395,7 @@
 				B861A381263C39B600486781 /* _7_整数反转.swift in Sources */,
 				B861A365263BEF1600486781 /* _145_二叉树的后序遍历.swift in Sources */,
 				B84A71E8262D81DA0009AB69 /* _27_removeElement.swift in Sources */,
+				B8BF354226420DD100609E57 /* _141_环形链表.swift in Sources */,
 				B816205F2623F687005E621C /* LIQeue.swift in Sources */,
 				B861A358263BDFC500486781 /* _144_二叉树的前序遍历.swift in Sources */,
 				B84A71EC262E771A0009AB69 /* LIArray.swift in Sources */,
@@ -380,6 +403,7 @@
 				B861A38B263F838B00486781 /* Offer_39_出现次数超过一半的数字.swift in Sources */,
 				B81620592623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift in Sources */,
 				B861A39B26400BA200486781 /* ListNode.swift in Sources */,
+				B802E38F2641467600AB96FF /* _234_回文链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
