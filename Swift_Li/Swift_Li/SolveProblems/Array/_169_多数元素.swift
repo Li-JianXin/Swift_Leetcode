@@ -12,12 +12,15 @@
  你可以假设数组是非空的，并且给定的数组总是存在多数元素。
  */
 
+/*理解：
+ https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/solution/mian-shi-ti-39-shu-zu-zhong-chu-xian-ci-shu-chao-3/
+ */
+
 import Foundation
 
 class Array_69_Solution {
     // 摩尔投票法
     // 每轮假设发生 票数和=0=0 都可以 缩小剩余数组区间 。当遍历完成时，最后一轮假设的数字即为众数。
-    // 理解：https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/solution/mian-shi-ti-39-shu-zu-zhong-chu-xian-ci-shu-chao-3/
     func majorityElement(_ nums: [Int]) -> Int {
          var count = 0
          var candidate: Int?
