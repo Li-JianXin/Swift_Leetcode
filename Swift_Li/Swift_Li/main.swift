@@ -9,6 +9,11 @@ import Foundation
 
 print("Hello, World!")
 
+let string = "Hello, World!"
+for s in string {
+    print(s)
+}
+
 var array = [1,2,3,2,2,2,5,4,2]
 let offer39 = Offer_MajorityElement_39()
 let a = offer39.majorityElement(array)
