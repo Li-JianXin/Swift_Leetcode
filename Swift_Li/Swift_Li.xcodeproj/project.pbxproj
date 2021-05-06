@@ -21,8 +21,8 @@
 		B84A71E8262D81DA0009AB69 /* _27_移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */; };
 		B84A71EC262E771A0009AB69 /* LIArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71EB262E771A0009AB69 /* LIArray.swift */; };
 		B84A7241262ED4B00009AB69 /* _283_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A7240262ED4B00009AB69 /* _283_移动零.swift */; };
-		B84A7244262EF8240009AB69 /* _11_maxArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A7243262EF8240009AB69 /* _11_maxArea.swift */; };
-		B86191B82639632500486781 /* Offer_63_maxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86191B72639632500486781 /* Offer_63_maxProfit.swift */; };
+		B84A7244262EF8240009AB69 /* _11_盛水最多的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A7243262EF8240009AB69 /* _11_盛水最多的容器.swift */; };
+		B86191B82639632500486781 /* Offer_63_股票最大利润.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86191B72639632500486781 /* Offer_63_股票最大利润.swift */; };
 		B861A358263BDFC500486781 /* _144_二叉树的前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A357263BDFC400486781 /* _144_二叉树的前序遍历.swift */; };
 		B861A35E263BDFF000486781 /* LITree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A35D263BDFF000486781 /* LITree.swift */; };
 		B861A361263BEAB500486781 /* _94_二叉树的中序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A360263BEAB500486781 /* _94_二叉树的中序遍历.swift */; };
@@ -86,8 +86,8 @@
 		B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_27_移除元素.swift"; sourceTree = "<group>"; };
 		B84A71EB262E771A0009AB69 /* LIArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIArray.swift; sourceTree = "<group>"; };
 		B84A7240262ED4B00009AB69 /* _283_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_283_移动零.swift"; sourceTree = "<group>"; };
-		B84A7243262EF8240009AB69 /* _11_maxArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _11_maxArea.swift; sourceTree = "<group>"; };
-		B86191B72639632500486781 /* Offer_63_maxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_63_maxProfit.swift; sourceTree = "<group>"; };
+		B84A7243262EF8240009AB69 /* _11_盛水最多的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_11_盛水最多的容器.swift"; sourceTree = "<group>"; };
+		B86191B72639632500486781 /* Offer_63_股票最大利润.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer_63_股票最大利润.swift"; sourceTree = "<group>"; };
 		B861A357263BDFC400486781 /* _144_二叉树的前序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_144_二叉树的前序遍历.swift"; sourceTree = "<group>"; };
 		B861A35D263BDFF000486781 /* LITree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LITree.swift; sourceTree = "<group>"; };
 		B861A360263BEAB500486781 /* _94_二叉树的中序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_94_二叉树的中序遍历.swift"; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				B861A37B263C2ED900486781 /* _1_两数之和.swift */,
-				B84A7243262EF8240009AB69 /* _11_maxArea.swift */,
+				B84A7243262EF8240009AB69 /* _11_盛水最多的容器.swift */,
 				B87554442643C8D2005D477F /* _15_三数之和.swift */,
 				B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */,
 				B8C5E75F2632EF7900F23F36 /* _75_颜色分类.swift */,
@@ -248,7 +248,7 @@
 				B816303C26241946005E621C /* _704_二分查找.swift */,
 				B8C5E7632635924000F23F36 /* 金典_6_部分排序.swift */,
 				B861A38A263F838B00486781 /* Offer_39_出现次数超过一半的数字.swift */,
-				B86191B72639632500486781 /* Offer_63_maxProfit.swift */,
+				B86191B72639632500486781 /* Offer_63_股票最大利润.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -422,8 +422,8 @@
 				B861A378263C2CD400486781 /* _164_最大间距.swift in Sources */,
 				B87554452643C8D2005D477F /* _15_三数之和.swift in Sources */,
 				B861A361263BEAB500486781 /* _94_二叉树的中序遍历.swift in Sources */,
-				B86191B82639632500486781 /* Offer_63_maxProfit.swift in Sources */,
-				B84A7244262EF8240009AB69 /* _11_maxArea.swift in Sources */,
+				B86191B82639632500486781 /* Offer_63_股票最大利润.swift in Sources */,
+				B84A7244262EF8240009AB69 /* _11_盛水最多的容器.swift in Sources */,
 				B8C5E7642635924100F23F36 /* 金典_6_部分排序.swift in Sources */,
 				B816304126241F4C005E621C /* LILinkList.swift in Sources */,
 				B861A37C263C2ED900486781 /* _1_两数之和.swift in Sources */,
