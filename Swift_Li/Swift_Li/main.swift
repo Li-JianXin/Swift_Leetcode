@@ -9,10 +9,14 @@ import Foundation
 
 print("Hello, World!")
 
-let string = "Hello, World!"
-for s in string {
-    print(s)
-}
+let string = "Hello  World! a   bb cc"
+//for s in string {
+//    print(s)
+//}
+
+let a1 = String_151_Solution()
+let s1 = a1.reverseWords1(string)
+print(s1)
 
 var array = [1,2,3,2,2,2,5,4,2]
 let offer39 = Offer_MajorityElement_39()
