@@ -53,7 +53,7 @@ class String_3_Solution {
             // i位置字符上一次出现的位置
             if let pi = map[sAry[i]] {
                 if li <= pi {
-                    li = pi + 1
+                    li = pi + 1 // 移动左指针
                 }
             }
             // 存储这个字符出现的位置
