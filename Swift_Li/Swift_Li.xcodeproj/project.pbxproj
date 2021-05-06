@@ -42,6 +42,8 @@
 		B8BF35482643586000609E57 /* _20_有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF35472643586000609E57 /* _20_有效的括号.swift */; };
 		B8BF354D26435CCB00609E57 /* _155_最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF354C26435CCB00609E57 /* _155_最小栈.swift */; };
 		B8BF35512643633000609E57 /* _654_最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF35502643633000609E57 /* _654_最大二叉树.swift */; };
+		B8BF3555264366FA00609E57 /* _739_每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF3554264366FA00609E57 /* _739_每日温度.swift */; };
+		B8BF355926436CD100609E57 /* _572_另一个树的子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF355826436CD100609E57 /* _572_另一个树的子树.swift */; };
 		B8C578132630298400F23F36 /* _70_爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C578122630298400F23F36 /* _70_爬楼梯.swift */; };
 		B8C578182631178700F23F36 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C578172631178700F23F36 /* Sort.swift */; };
 		B8C5E75B2632CFCB00F23F36 /* _88_合并2个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C5E75A2632CFCB00F23F36 /* _88_合并2个有序数组.swift */; };
@@ -98,6 +100,8 @@
 		B8BF35472643586000609E57 /* _20_有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_20_有效的括号.swift"; sourceTree = "<group>"; };
 		B8BF354C26435CCB00609E57 /* _155_最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_155_最小栈.swift"; sourceTree = "<group>"; };
 		B8BF35502643633000609E57 /* _654_最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_654_最大二叉树.swift"; sourceTree = "<group>"; };
+		B8BF3554264366FA00609E57 /* _739_每日温度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_739_每日温度.swift"; sourceTree = "<group>"; };
+		B8BF355826436CD100609E57 /* _572_另一个树的子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_572_另一个树的子树.swift"; sourceTree = "<group>"; };
 		B8C578122630298400F23F36 /* _70_爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_70_爬楼梯.swift"; sourceTree = "<group>"; };
 		B8C578172631178700F23F36 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		B8C5E75A2632CFCB00F23F36 /* _88_合并2个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_88_合并2个有序数组.swift"; sourceTree = "<group>"; };
@@ -248,6 +252,7 @@
 				B861A357263BDFC400486781 /* _144_二叉树的前序遍历.swift */,
 				B861A364263BEF1600486781 /* _145_二叉树的后序遍历.swift */,
 				B8BF35502643633000609E57 /* _654_最大二叉树.swift */,
+				B8BF355826436CD100609E57 /* _572_另一个树的子树.swift */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			children = (
 				B8BF35472643586000609E57 /* _20_有效的括号.swift */,
 				B8BF354C26435CCB00609E57 /* _155_最小栈.swift */,
+				B8BF3554264366FA00609E57 /* _739_每日温度.swift */,
 			);
 			path = "栈";
 			sourceTree = "<group>";
@@ -376,6 +382,7 @@
 				B861A385263C405200486781 /* _203_移除链表元素.swift in Sources */,
 				B84A7241262ED4B00009AB69 /* _283_moveZeros.swift in Sources */,
 				B8BF35512643633000609E57 /* _654_最大二叉树.swift in Sources */,
+				B8BF3555264366FA00609E57 /* _739_每日温度.swift in Sources */,
 				B8BF35482643586000609E57 /* _20_有效的括号.swift in Sources */,
 				B81620472623F1C9005E621C /* main.swift in Sources */,
 				B861A38F263FF0C800486781 /* _169_多数元素.swift in Sources */,
@@ -405,6 +412,7 @@
 				B84A71E8262D81DA0009AB69 /* _27_removeElement.swift in Sources */,
 				B8BF354226420DD100609E57 /* _141_环形链表.swift in Sources */,
 				B816205F2623F687005E621C /* LIQeue.swift in Sources */,
+				B8BF355926436CD100609E57 /* _572_另一个树的子树.swift in Sources */,
 				B861A358263BDFC500486781 /* _144_二叉树的前序遍历.swift in Sources */,
 				B84A71EC262E771A0009AB69 /* LIArray.swift in Sources */,
 				B802E38B264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift in Sources */,
