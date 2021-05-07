@@ -14,6 +14,10 @@ let string = "Hello  World! a   bb cc"
 //    print(s)
 //}
 
+let str58 = String_58_Solution()
+let strlength = str58.lengthOfLastWord(string)
+print(strlength)
+
 let grid = [[1,3,1],[1,5,1],[4,2,1]]
 let offer47 = Offer_47_Solution()
 let a = offer47.maxValue(grid)
