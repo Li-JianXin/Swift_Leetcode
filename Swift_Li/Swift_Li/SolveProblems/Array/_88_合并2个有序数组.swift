@@ -37,4 +37,5 @@ class Merge_88 {
             index -= 1
         }
     }
+    
 }
