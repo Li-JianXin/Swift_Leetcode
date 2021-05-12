@@ -44,6 +44,8 @@
 		B861A39B26400BA200486781 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861A39A26400BA200486781 /* ListNode.swift */; };
 		B87554412643C45A005D477F /* _121_买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87554402643C45A005D477F /* _121_买卖股票的最佳时机.swift */; };
 		B87554452643C8D2005D477F /* _15_三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87554442643C8D2005D477F /* _15_三数之和.swift */; };
+		B888D9B0264BC97E0039FEF7 /* _100_相同的树.swift in Sources */ = {isa = PBXBuildFile; fileRef = B888D9AF264BC97E0039FEF7 /* _100_相同的树.swift */; };
+		B888D9B4264BCCB60039FEF7 /* _112_路径总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = B888D9B3264BCCB60039FEF7 /* _112_路径总和.swift */; };
 		B89B8D7E2626E2B200C4627A /* Offer_58_reverseLeftWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */; };
 		B8BF354226420DD100609E57 /* _141_环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF354126420DD100609E57 /* _141_环形链表.swift */; };
 		B8BF35482643586000609E57 /* _20_有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF35472643586000609E57 /* _20_有效的括号.swift */; };
@@ -114,6 +116,8 @@
 		B861A39A26400BA200486781 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		B87554402643C45A005D477F /* _121_买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_121_买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		B87554442643C8D2005D477F /* _15_三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_15_三数之和.swift"; sourceTree = "<group>"; };
+		B888D9AF264BC97E0039FEF7 /* _100_相同的树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_100_相同的树.swift"; sourceTree = "<group>"; };
+		B888D9B3264BCCB60039FEF7 /* _112_路径总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_112_路径总和.swift"; sourceTree = "<group>"; };
 		B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer_58_reverseLeftWords.swift; sourceTree = "<group>"; };
 		B8BF354126420DD100609E57 /* _141_环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_环形链表.swift"; sourceTree = "<group>"; };
 		B8BF35472643586000609E57 /* _20_有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_20_有效的括号.swift"; sourceTree = "<group>"; };
@@ -276,6 +280,8 @@
 			isa = PBXGroup;
 			children = (
 				B861A360263BEAB500486781 /* _94_二叉树的中序遍历.swift */,
+				B888D9AF264BC97E0039FEF7 /* _100_相同的树.swift */,
+				B888D9B3264BCCB60039FEF7 /* _112_路径总和.swift */,
 				B861A357263BDFC400486781 /* _144_二叉树的前序遍历.swift */,
 				B861A364263BEF1600486781 /* _145_二叉树的后序遍历.swift */,
 				B8BF355826436CD100609E57 /* _572_另一个树的子树.swift */,
@@ -462,6 +468,7 @@
 				B861A381263C39B600486781 /* _7_整数反转.swift in Sources */,
 				B861A365263BEF1600486781 /* _145_二叉树的后序遍历.swift in Sources */,
 				B8BF35612643942700609E57 /* _242_有效的字母异位词.swift in Sources */,
+				B888D9B4264BCCB60039FEF7 /* _112_路径总和.swift in Sources */,
 				B84A71E8262D81DA0009AB69 /* _27_移除元素.swift in Sources */,
 				B8BF354226420DD100609E57 /* _141_环形链表.swift in Sources */,
 				B816205F2623F687005E621C /* LIQeue.swift in Sources */,
@@ -476,6 +483,7 @@
 				B861A39B26400BA200486781 /* ListNode.swift in Sources */,
 				B802E38F2641467600AB96FF /* _234_回文链表.swift in Sources */,
 				B85956532645170900DD6C3E /* _53_最大子序列和.swift in Sources */,
+				B888D9B0264BC97E0039FEF7 /* _100_相同的树.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
