@@ -22,6 +22,12 @@
 		B84A71EC262E771A0009AB69 /* LIArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71EB262E771A0009AB69 /* LIArray.swift */; };
 		B84A7241262ED4B00009AB69 /* _283_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A7240262ED4B00009AB69 /* _283_移动零.swift */; };
 		B84A7244262EF8240009AB69 /* _11_盛水最多的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A7243262EF8240009AB69 /* _11_盛水最多的容器.swift */; };
+		B850B69626501951002E4EF8 /* _118_杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850B69526501951002E4EF8 /* _118_杨辉三角.swift */; };
+		B850B69A265022DF002E4EF8 /* _415_字符串相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850B699265022DF002E4EF8 /* _415_字符串相加.swift */; };
+		B850B6A02650A690002E4EF8 /* _961_重复N次的元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850B69F2650A690002E4EF8 /* _961_重复N次的元素.swift */; };
+		B850B6A42650AB1C002E4EF8 /* Offer_09_两个栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850B6A32650AB1C002E4EF8 /* Offer_09_两个栈实现队列.swift */; };
+		B850B6A826510525002E4EF8 /* _5_最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850B6A726510525002E4EF8 /* _5_最长回文子串.swift */; };
+		B850B6AC2651100D002E4EF8 /* _14_最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850B6AB2651100D002E4EF8 /* _14_最长公共前缀.swift */; };
 		B8594D912644E51300DD6C3E /* _50_Pow(x,n).swift in Sources */ = {isa = PBXBuildFile; fileRef = B8594D902644E51300DD6C3E /* _50_Pow(x,n).swift */; };
 		B8594D952644EAC100DD6C3E /* _69_x的平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8594D942644EAC100DD6C3E /* _69_x的平方根.swift */; };
 		B85956532645170900DD6C3E /* _53_最大子序列和.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85956522645170900DD6C3E /* _53_最大子序列和.swift */; };
@@ -95,6 +101,12 @@
 		B84A71EB262E771A0009AB69 /* LIArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIArray.swift; sourceTree = "<group>"; };
 		B84A7240262ED4B00009AB69 /* _283_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_283_移动零.swift"; sourceTree = "<group>"; };
 		B84A7243262EF8240009AB69 /* _11_盛水最多的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_11_盛水最多的容器.swift"; sourceTree = "<group>"; };
+		B850B69526501951002E4EF8 /* _118_杨辉三角.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_118_杨辉三角.swift"; sourceTree = "<group>"; };
+		B850B699265022DF002E4EF8 /* _415_字符串相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_415_字符串相加.swift"; sourceTree = "<group>"; };
+		B850B69F2650A690002E4EF8 /* _961_重复N次的元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_961_重复N次的元素.swift"; sourceTree = "<group>"; };
+		B850B6A32650AB1C002E4EF8 /* Offer_09_两个栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Offer_09_两个栈实现队列.swift"; sourceTree = "<group>"; };
+		B850B6A726510525002E4EF8 /* _5_最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5_最长回文子串.swift"; sourceTree = "<group>"; };
+		B850B6AB2651100D002E4EF8 /* _14_最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_14_最长公共前缀.swift"; sourceTree = "<group>"; };
 		B8594D902644E51300DD6C3E /* _50_Pow(x,n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_50_Pow(x,n).swift"; sourceTree = "<group>"; };
 		B8594D942644EAC100DD6C3E /* _69_x的平方根.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_69_x的平方根.swift"; sourceTree = "<group>"; };
 		B85956522645170900DD6C3E /* _53_最大子序列和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_53_最大子序列和.swift"; sourceTree = "<group>"; };
@@ -266,6 +278,8 @@
 				B8C5E7632635924000F23F36 /* 金典_6_部分排序.swift */,
 				B861A38A263F838B00486781 /* Offer_39_出现次数超过一半的数字.swift */,
 				B86191B72639632500486781 /* Offer_63_股票最大利润.swift */,
+				B850B69526501951002E4EF8 /* _118_杨辉三角.swift */,
+				B850B69F2650A690002E4EF8 /* _961_重复N次的元素.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -317,9 +331,12 @@
 				B8BF356B26439C0A00609E57 /* _3_无重复字符的最长子串.swift */,
 				B859565626451B8800DD6C3E /* _58_最后一个单词长度.swift */,
 				B8BF35642643971A00609E57 /* _151_翻转字符串里的单词.swift */,
-				B8BF355C2643915100609E57 /* 金典_01.09_字符串轮转.swift */,
 				B8BF35602643942700609E57 /* _242_有效的字母异位词.swift */,
+				B850B699265022DF002E4EF8 /* _415_字符串相加.swift */,
+				B8BF355C2643915100609E57 /* 金典_01.09_字符串轮转.swift */,
 				B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */,
+				B850B6A726510525002E4EF8 /* _5_最长回文子串.swift */,
+				B850B6AB2651100D002E4EF8 /* _14_最长公共前缀.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -330,6 +347,7 @@
 				B8BF35472643586000609E57 /* _20_有效的括号.swift */,
 				B8BF354C26435CCB00609E57 /* _155_最小栈.swift */,
 				B8BF3554264366FA00609E57 /* _739_每日温度.swift */,
+				B850B6A32650AB1C002E4EF8 /* Offer_09_两个栈实现队列.swift */,
 			);
 			path = "栈";
 			sourceTree = "<group>";
@@ -435,13 +453,16 @@
 				B861A36F263C01A500486781 /* _Offer18_删除链表的节点.swift in Sources */,
 				B861A385263C405200486781 /* _203_移除链表元素.swift in Sources */,
 				B84A7241262ED4B00009AB69 /* _283_移动零.swift in Sources */,
+				B850B69626501951002E4EF8 /* _118_杨辉三角.swift in Sources */,
 				B8BF35512643633000609E57 /* _654_最大二叉树.swift in Sources */,
 				B8BF3555264366FA00609E57 /* _739_每日温度.swift in Sources */,
+				B850B6AC2651100D002E4EF8 /* _14_最长公共前缀.swift in Sources */,
 				B8BF35482643586000609E57 /* _20_有效的括号.swift in Sources */,
 				B81620472623F1C9005E621C /* main.swift in Sources */,
 				B861A38F263FF0C800486781 /* _169_多数元素.swift in Sources */,
 				B81620572623F23B005E621C /* _206_反转链表.swift in Sources */,
 				B888D9B9264BDA2B0039FEF7 /* _101_对称二叉树.swift in Sources */,
+				B850B6A42650AB1C002E4EF8 /* Offer_09_两个栈实现队列.swift in Sources */,
 				B8C5E7602632EF7900F23F36 /* _75_颜色分类.swift in Sources */,
 				B8BF35722643BDA500609E57 /* Offer_47_礼物最大价值.swift in Sources */,
 				B861A378263C2CD400486781 /* _164_最大间距.swift in Sources */,
@@ -475,6 +496,7 @@
 				B888D9B4264BCCB60039FEF7 /* _112_路径总和.swift in Sources */,
 				B84A71E8262D81DA0009AB69 /* _27_移除元素.swift in Sources */,
 				B8BF354226420DD100609E57 /* _141_环形链表.swift in Sources */,
+				B850B69A265022DF002E4EF8 /* _415_字符串相加.swift in Sources */,
 				B816205F2623F687005E621C /* LIQeue.swift in Sources */,
 				B8BF355926436CD100609E57 /* _572_另一个树的子树.swift in Sources */,
 				B861A358263BDFC500486781 /* _144_二叉树的前序遍历.swift in Sources */,
@@ -485,9 +507,11 @@
 				B81620592623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift in Sources */,
 				B8BF356C26439C0A00609E57 /* _3_无重复字符的最长子串.swift in Sources */,
 				B861A39B26400BA200486781 /* ListNode.swift in Sources */,
+				B850B6A02650A690002E4EF8 /* _961_重复N次的元素.swift in Sources */,
 				B802E38F2641467600AB96FF /* _234_回文链表.swift in Sources */,
 				B85956532645170900DD6C3E /* _53_最大子序列和.swift in Sources */,
 				B888D9B0264BC97E0039FEF7 /* _100_相同的树.swift in Sources */,
+				B850B6A826510525002E4EF8 /* _5_最长回文子串.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

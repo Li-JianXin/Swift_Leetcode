@@ -10,13 +10,25 @@ import Foundation
 print("Hello, World!")
 
 let string = "Hello  World! a   bb cc"
+//print(Array(string))
 //for s in string {
 //    print(s)
 //}
 
-let str58 = String_58_Solution()
-let strlength = str58.lengthOfLastWord(string)
-print(strlength)
+//var prefix = string[0]
+
+let d:String = "0"
+let c = String.Element("b")
+
+var map: [Int: Int] = [:]
+map[0] = 0
+
+//var res: [Int] =
+//res[0] = 1
+
+let solution = String_5_Solution()
+let res = solution.longestPalindrome("ababa")
+print(res)
 
 let grid = [[1,3,1],[1,5,1],[4,2,1]]
 let offer47 = Offer_47_Solution()
