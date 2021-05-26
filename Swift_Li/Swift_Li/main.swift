@@ -7,28 +7,44 @@
 
 import Foundation
 
+
+let sortString = "wan2   ba1 a0"
+let solution = Array_1859_Solution()
+let str00 = solution.sortSentence(sortString)
+print(str00)
+
 print("Hello, World!")
 
 let string = "Hello  World! a   bb cc"
-//print(Array(string))
-//for s in string {
-//    print(s)
-//}
+print(Array(string))
+for s in string {
+    print(s)
+}
 
 //var prefix = string[0]
+
+var map: [Int: Int] = [:]
+map[1] = 11
+// 判断字典
+if let abc = map[1] {
+    print(abc)
+} else {
+    print("没有")
+}
 
 let d:String = "0"
 let c = String.Element("b")
 
-var map: [Int: Int] = [:]
-map[0] = 0
+
+//var map: [Int: Int] = [:]
+//map[0] = 0
 
 //var res: [Int] =
 //res[0] = 1
 
-let solution = String_5_Solution()
-let res = solution.longestPalindrome("ababa")
-print(res)
+//let solution = String_5_Solution()
+//let res = solution.longestPalindrome("ababa")
+//print(res)
 
 let grid = [[1,3,1],[1,5,1],[4,2,1]]
 let offer47 = Offer_47_Solution()
