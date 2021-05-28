@@ -8,10 +8,14 @@
 import Foundation
 
 
-let sortString = "wan2   ba1 a0"
-let solution = Array_1859_Solution()
-let str00 = solution.sortSentence(sortString)
-print(str00)
+//let sortString = "wan2   ba1 a0"
+//let solution = Array_1859_Solution()
+//let str00 = solution.sortSentence(sortString)
+//print(str00)
+
+let solution = Solution253()
+let count = solution.minMeetingRooms([[9,10],[4,9],[4,17]])
+print(count)
 
 print("Hello, World!")
 
