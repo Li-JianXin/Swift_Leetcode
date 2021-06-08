@@ -18,6 +18,7 @@
 		B81630382623FE6A005E621C /* LIStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81630372623FE6A005E621C /* LIStack.swift */; };
 		B816303D26241946005E621C /* _704_二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816303C26241946005E621C /* _704_二分查找.swift */; };
 		B816304126241F4C005E621C /* LILinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816304026241F4C005E621C /* LILinkList.swift */; };
+		B81C6A0E266F225900B6B8C5 /* _202_快乐数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C6A0D266F225900B6B8C5 /* _202_快乐数.swift */; };
 		B84A71E8262D81DA0009AB69 /* _27_移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */; };
 		B84A71EC262E771A0009AB69 /* LIArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71EB262E771A0009AB69 /* LIArray.swift */; };
 		B84A7241262ED4B00009AB69 /* _283_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A7240262ED4B00009AB69 /* _283_移动零.swift */; };
@@ -106,6 +107,7 @@
 		B81630372623FE6A005E621C /* LIStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIStack.swift; sourceTree = "<group>"; };
 		B816303C26241946005E621C /* _704_二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_704_二分查找.swift"; sourceTree = "<group>"; };
 		B816304026241F4C005E621C /* LILinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LILinkList.swift; sourceTree = "<group>"; };
+		B81C6A0D266F225900B6B8C5 /* _202_快乐数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_202_快乐数.swift"; sourceTree = "<group>"; };
 		B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_27_移除元素.swift"; sourceTree = "<group>"; };
 		B84A71EB262E771A0009AB69 /* LIArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIArray.swift; sourceTree = "<group>"; };
 		B84A7240262ED4B00009AB69 /* _283_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_283_移动零.swift"; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 				B861A380263C39B600486781 /* _7_整数反转.swift */,
 				B8594D902644E51300DD6C3E /* _50_Pow(x,n).swift */,
 				B8594D942644EAC100DD6C3E /* _69_x的平方根.swift */,
+				B81C6A0D266F225900B6B8C5 /* _202_快乐数.swift */,
 			);
 			path = "整数";
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 				B802E381264018A000AB96FF /* _160_相交链表.swift in Sources */,
 				B859565726451B8800DD6C3E /* _58_最后一个单词长度.swift in Sources */,
 				B861A36A263BF74D00486781 /* _Offer24_反转链表.swift in Sources */,
+				B81C6A0E266F225900B6B8C5 /* _202_快乐数.swift in Sources */,
 				B816303D26241946005E621C /* _704_二分查找.swift in Sources */,
 				B861A381263C39B600486781 /* _7_整数反转.swift in Sources */,
 				B861A365263BEF1600486781 /* _145_二叉树的后序遍历.swift in Sources */,
