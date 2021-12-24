@@ -76,3 +76,8 @@ print(s1)
 //let linklist = Offer25_Solution()
 //let res = linklist.mergeTwoLists(head1, head2)
 //print(res)
+
+
+let array = [4,1,2,1,2]
+let s136 = Solution_136()
+s136.singleNubmer1(array)
