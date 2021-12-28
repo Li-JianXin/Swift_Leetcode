@@ -15,4 +15,8 @@ public class ListNode {
         self.val = val
         self.next = nil
     }
+    public init(_ val: Int, _ next: ListNode?) {
+        self.val = val
+        self.next = next
+    }
 }

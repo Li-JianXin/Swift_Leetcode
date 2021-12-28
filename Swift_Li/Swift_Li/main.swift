@@ -19,11 +19,11 @@ print(count)
 
 print("Hello, World!")
 
-let string = "Hello  World! a   bb cc"
-print(Array(string))
-for s in string {
-    print(s)
-}
+//let string = "Hello  World! a   bb cc"
+//print(Array(string))
+//for s in string {
+//    print(s)
+//}
 
 //var prefix = string[0]
 
@@ -78,6 +78,11 @@ print(s1)
 //print(res)
 
 
-let array = [4,1,2,1,2]
-let s136 = Solution_136()
-s136.singleNubmer1(array)
+//let array = [4,1,2,1,2]
+//let s136 = Solution_136()
+//s136.singleNubmer1(array)
+
+var string = "ab cd ef"
+let s557 = String_557_Solution()
+let res = s557.reverseWords(string)
+

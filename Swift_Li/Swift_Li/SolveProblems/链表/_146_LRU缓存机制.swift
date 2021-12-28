@@ -12,7 +12,7 @@
 
 import Foundation
 
-class Node {
+class Node {  // 双向链表
     var pre: Node?
     var next: Node?
     var key: Int
@@ -35,7 +35,7 @@ class LRUCache {
     var first: Node?
     // 虚拟尾节点
     var last: Node?
-
+    
     init(_ capacity: Int) {
         self.capacity = capacity
         first = Node()
@@ -43,9 +43,8 @@ class LRUCache {
         first?.next = last
         last?.pre = first
     }
-
     
-     func get(_ key: Int) -> Int {
+    func get(_ key: Int) -> Int {
         if let node = map[key] {
             moveToFirst(node)
             return node.value
@@ -66,13 +65,13 @@ class LRUCache {
                 let leastNode = last?.pre
                 removeNode(leastNode!)
                 map.removeValue(forKey: leastNode!.key)
-
+                
             }
             map[key] = newNode
             insertFirst(newNode)
         }
     }
-
+    
     // 删除节点
     func removeNode(_ node: Node) {
         node.pre?.next = node.next
@@ -94,16 +93,3 @@ class LRUCache {
         insertFirst(node)
     }
 }
-/**
- * Your LRUCache object will be instantiated and called as such:
- * let obj = LRUCache(capacity)
- * let ret_1: Int = obj.get(key)
- * obj.put(key, value)
- */
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * let obj = LRUCache(capacity)
- * let ret_1: Int = obj.get(key)
- * obj.put(key, value)
- */
