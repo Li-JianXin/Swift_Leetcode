@@ -28,7 +28,12 @@ import Foundation
  */
 
 class Tree_104_Solution {
+    // 思路：深度优先搜索 DFS
     func maxDepth(_ root: TreeNode?) -> Int {
-        
+        guard root != nil else { // 终止条件，当前节点为空，高度为0，返回0
+            return 0
+        }
+        // 求出左右子树的最大值，+1是因为从递归终止条件开始回溯后，每一层树高度要+1
+        return max(maxDepth(root?.left), maxDepth(root?.right)) + 1
     }
 }
