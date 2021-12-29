@@ -22,6 +22,7 @@
 		B816303D26241946005E621C /* _704_二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816303C26241946005E621C /* _704_二分查找.swift */; };
 		B816304126241F4C005E621C /* LILinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816304026241F4C005E621C /* LILinkList.swift */; };
 		B81C6A0E266F225900B6B8C5 /* _202_快乐数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C6A0D266F225900B6B8C5 /* _202_快乐数.swift */; };
+		B844F03C277BDE1000E89E38 /* _104_二叉树的最大深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844F03B277BDE1000E89E38 /* _104_二叉树的最大深度.swift */; };
 		B84A71E8262D81DA0009AB69 /* _27_移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */; };
 		B84A71EC262E771A0009AB69 /* LIArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71EB262E771A0009AB69 /* LIArray.swift */; };
 		B84A7241262ED4B00009AB69 /* _283_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A7240262ED4B00009AB69 /* _283_移动零.swift */; };
@@ -114,6 +115,7 @@
 		B816303C26241946005E621C /* _704_二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_704_二分查找.swift"; sourceTree = "<group>"; };
 		B816304026241F4C005E621C /* LILinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LILinkList.swift; sourceTree = "<group>"; };
 		B81C6A0D266F225900B6B8C5 /* _202_快乐数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_202_快乐数.swift"; sourceTree = "<group>"; };
+		B844F03B277BDE1000E89E38 /* _104_二叉树的最大深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_104_二叉树的最大深度.swift"; sourceTree = "<group>"; };
 		B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_27_移除元素.swift"; sourceTree = "<group>"; };
 		B84A71EB262E771A0009AB69 /* LIArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIArray.swift; sourceTree = "<group>"; };
 		B84A7240262ED4B00009AB69 /* _283_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_283_移动零.swift"; sourceTree = "<group>"; };
@@ -351,6 +353,7 @@
 				B8A95DBE2653B5CC0015A799 /* _102_二叉树的层序便利.swift */,
 				B8683CB1265E4093002C983A /* _226_反转二叉树.swift */,
 				B8884ECE266DBEA800975394 /* _108_将有序数组转换为二叉搜索树.swift */,
+				B844F03B277BDE1000E89E38 /* _104_二叉树的最大深度.swift */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -503,6 +506,7 @@
 				B8A96E1626553F860015A799 /* _146_LRU缓存机制.swift in Sources */,
 				B888D9B9264BDA2B0039FEF7 /* _101_对称二叉树.swift in Sources */,
 				B850B6A42650AB1C002E4EF8 /* Offer_09_两个栈实现队列.swift in Sources */,
+				B844F03C277BDE1000E89E38 /* _104_二叉树的最大深度.swift in Sources */,
 				B8A2DA712668A5CF00BD13ED /* _42_接雨水.swift in Sources */,
 				B8C5E7602632EF7900F23F36 /* _75_颜色分类.swift in Sources */,
 				B8BF35722643BDA500609E57 /* Offer_47_礼物最大价值.swift in Sources */,
