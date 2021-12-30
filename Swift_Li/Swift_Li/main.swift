@@ -64,18 +64,19 @@ print(s1)
 //let a = offer39.majorityElement(array)
 //print(a)
 //
-//var head1 = ListNode(1)
-//head1.next = ListNode(2)
-//head1.next?.next = ListNode(2)
-//head1.next?.next?.next = ListNode(1)
-//
+var head1 = ListNode(1)
+head1.next = ListNode(2)
+head1.next?.next = ListNode(3)
+head1.next?.next?.next = ListNode(4)
+head1.next?.next?.next?.next = ListNode(6)
+
 //var head2 = ListNode(5)
 //head2.next = ListNode(6)
 //head2.next?.next = ListNode(4)
 //
-//let linklist = Offer25_Solution()
-//let res = linklist.mergeTwoLists(head1, head2)
-//print(res)
+let linklist = LinkList_876_Solution()
+let resL = linklist.middleNode(head1)
+print(resL)
 
 
 //let array = [4,1,2,1,2]
