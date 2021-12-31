@@ -2,8 +2,13 @@
 Swift学习
 数据结构与算法学习
 
-## Basic
-一些数据结构的基础知识或实现
+## DataStructure
+常见的数据结构实现
 
-## SolveProblems
-leetcode实战
+## Algorithms
+算法思路
+
+## Leetcode
+
+Leetcode练习
+
