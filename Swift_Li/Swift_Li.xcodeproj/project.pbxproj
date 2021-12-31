@@ -10,6 +10,7 @@
 		8F1AFE0F27756ABC00D00989 /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AFE0E27756ABC00D00989 /* _136_只出现一次的数字.swift */; };
 		8F8D1832277EA7EE009DF263 /* _92_反转链表2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */; };
 		8F8D1834277EAD02009DF263 /* _25_K个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1833277EAD02009DF263 /* _25_K个一组翻转链表.swift */; };
+		8F8D1839277EAF6B009DF263 /* 链表反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1838277EAF6B009DF263 /* 链表反转.swift */; };
 		8F8DAB92277AED68009DF263 /* _19_删除链表的倒数第N个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DAB91277AED68009DF263 /* _19_删除链表的倒数第N个结点.swift */; };
 		8F8DAB94277B09D5009DF263 /* _557_反转字符串中的单词3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DAB93277B09D5009DF263 /* _557_反转字符串中的单词3.swift */; };
 		8F8DAB96277C051D009DF263 /* _1995_统计特殊四元组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DAB95277C051D009DF263 /* _1995_统计特殊四元组.swift */; };
@@ -107,6 +108,7 @@
 		8F1AFE0E27756ABC00D00989 /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
 		8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_92_反转链表2.swift"; sourceTree = "<group>"; };
 		8F8D1833277EAD02009DF263 /* _25_K个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_25_K个一组翻转链表.swift"; sourceTree = "<group>"; };
+		8F8D1838277EAF6B009DF263 /* 链表反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "链表反转.swift"; sourceTree = "<group>"; };
 		8F8DAB91277AED68009DF263 /* _19_删除链表的倒数第N个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_19_删除链表的倒数第N个结点.swift"; sourceTree = "<group>"; };
 		8F8DAB93277B09D5009DF263 /* _557_反转字符串中的单词3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_557_反转字符串中的单词3.swift"; sourceTree = "<group>"; };
 		8F8DAB95277C051D009DF263 /* _1995_统计特殊四元组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1995_统计特殊四元组.swift"; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 		8F8D1837277EAEAB009DF263 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				8F8D1838277EAF6B009DF263 /* 链表反转.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -229,7 +232,7 @@
 				8F8D1837277EAEAB009DF263 /* Algorithms */,
 				B81620462623F1C9005E621C /* main.swift */,
 				B816204E2623F23B005E621C /* DataStructure */,
-				B81620522623F23B005E621C /* SolveProblems */,
+				B81620522623F23B005E621C /* Leetcode */,
 			);
 			path = Swift_Li;
 			sourceTree = "<group>";
@@ -271,7 +274,7 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
-		B81620522623F23B005E621C /* SolveProblems */ = {
+		B81620522623F23B005E621C /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
 				B8BF35702643BD9500609E57 /* 动态规划 */,
@@ -284,7 +287,7 @@
 				B816303B26241909005E621C /* Array */,
 				B81620532623F23B005E621C /* 链表 */,
 			);
-			path = SolveProblems;
+			path = Leetcode;
 			sourceTree = "<group>";
 		};
 		B81620532623F23B005E621C /* 链表 */ = {
@@ -572,6 +575,7 @@
 				8F8DAB94277B09D5009DF263 /* _557_反转字符串中的单词3.swift in Sources */,
 				B81620592623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift in Sources */,
 				B8BF356C26439C0A00609E57 /* _3_无重复字符的最长子串.swift in Sources */,
+				8F8D1839277EAF6B009DF263 /* 链表反转.swift in Sources */,
 				B861A39B26400BA200486781 /* ListNode.swift in Sources */,
 				B850B6A02650A690002E4EF8 /* _961_重复N次的元素.swift in Sources */,
 				B802E38F2641467600AB96FF /* _234_回文链表.swift in Sources */,
