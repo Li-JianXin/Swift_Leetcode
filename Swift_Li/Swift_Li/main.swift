@@ -76,7 +76,9 @@ head1.next?.next?.next?.next = ListNode(6)
 //
 let linklist = LinkList_876_Solution()
 let resL = linklist.middleNode(head1)
-print(resL)
+
+let dp509 = DP_509_Solution()
+let res509 = dp509.fib_dp(4)
 
 
 //let array = [4,1,2,1,2]

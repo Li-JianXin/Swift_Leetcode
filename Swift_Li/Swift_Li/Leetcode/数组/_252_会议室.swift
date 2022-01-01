@@ -17,7 +17,7 @@ import Foundation
 
 class Solution252 {
     func canAttendMeetings(_ intervals: [[Int]]) -> Bool {
-           if intervals == nil || intervals.count == 0 {
+           if intervals.count == 0 {
                return true
            }
            var intervals = intervals;

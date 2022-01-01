@@ -14,7 +14,7 @@ import Foundation
 
 class Solution_42 {
     func trap(_ height: [Int]) -> Int {
-            if height == nil || height.count == 0 || height.count == 1 {
+            if height.count == 0 || height.count == 1 {
                 return 0
             }
             var res = 0
