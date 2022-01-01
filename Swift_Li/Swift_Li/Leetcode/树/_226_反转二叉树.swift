@@ -38,6 +38,7 @@ class Solution226 {
         root?.right = left
         return root
     }
+    
     func invertTree1(_ root: TreeNode?) -> TreeNode? {
         if root == nil {
             return nil
