@@ -33,7 +33,7 @@ class Tree_654_Solution {
         var maxIdx = l
         for i in l+1..<r {
             if nums[i] > nums[maxIdx] {
-                maxIdx = i
+                maxIdx = i // 找出最大索引值
             }
         }
         let node = TreeNode(nums[maxIdx])  // 根结点

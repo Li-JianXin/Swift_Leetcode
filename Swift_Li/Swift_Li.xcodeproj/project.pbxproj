@@ -35,6 +35,8 @@
 		B816304126241F4C005E621C /* LILinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816304026241F4C005E621C /* LILinkList.swift */; };
 		B81C6A0E266F225900B6B8C5 /* _202_快乐数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C6A0D266F225900B6B8C5 /* _202_快乐数.swift */; };
 		B844F03C277BDE1000E89E38 /* _104_二叉树的最大深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844F03B277BDE1000E89E38 /* _104_二叉树的最大深度.swift */; };
+		B844F03E27800EA100E89E38 /* _509_斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844F03D27800EA100E89E38 /* _509_斐波那契数.swift */; };
+		B844F04027808E0400E89E38 /* _322_零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = B844F03F27808E0400E89E38 /* _322_零钱兑换.swift */; };
 		B84A71E8262D81DA0009AB69 /* _27_移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */; };
 		B84A71EC262E771A0009AB69 /* LIArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A71EB262E771A0009AB69 /* LIArray.swift */; };
 		B84A7241262ED4B00009AB69 /* _283_移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A7240262ED4B00009AB69 /* _283_移动零.swift */; };
@@ -139,6 +141,8 @@
 		B816304026241F4C005E621C /* LILinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LILinkList.swift; sourceTree = "<group>"; };
 		B81C6A0D266F225900B6B8C5 /* _202_快乐数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_202_快乐数.swift"; sourceTree = "<group>"; };
 		B844F03B277BDE1000E89E38 /* _104_二叉树的最大深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_104_二叉树的最大深度.swift"; sourceTree = "<group>"; };
+		B844F03D27800EA100E89E38 /* _509_斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_509_斐波那契数.swift"; sourceTree = "<group>"; };
+		B844F03F27808E0400E89E38 /* _322_零钱兑换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_322_零钱兑换.swift"; sourceTree = "<group>"; };
 		B84A71E7262D81DA0009AB69 /* _27_移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_27_移除元素.swift"; sourceTree = "<group>"; };
 		B84A71EB262E771A0009AB69 /* LIArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIArray.swift; sourceTree = "<group>"; };
 		B84A7240262ED4B00009AB69 /* _283_移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_283_移动零.swift"; sourceTree = "<group>"; };
@@ -438,7 +442,9 @@
 				B85956522645170900DD6C3E /* _53_最大子序列和.swift */,
 				8FA1BA8B27854244001F7EE4 /* _70_爬楼梯.swift */,
 				B87554402643C45A005D477F /* _121_买卖股票的最佳时机.swift */,
+				B844F03D27800EA100E89E38 /* _509_斐波那契数.swift */,
 				B8BF35712643BDA500609E57 /* Offer_47_礼物最大价值.swift */,
+				B844F03F27808E0400E89E38 /* _322_零钱兑换.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -478,7 +484,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					B81620422623F1C9005E621C = {
 						CreatedOnToolsVersion = 12.4;
@@ -550,6 +556,7 @@
 				B89B8D7E2626E2B200C4627A /* Offer_58_reverseLeftWords.swift in Sources */,
 				B8C5E75B2632CFCB00F23F36 /* _88_合并2个有序数组.swift in Sources */,
 				8F8D1832277EA7EE009DF263 /* _92_反转链表2.swift in Sources */,
+				B844F04027808E0400E89E38 /* _322_零钱兑换.swift in Sources */,
 				B8C578132630298400F23F36 /* _70_爬楼梯.swift in Sources */,
 				B861A3932640091A00486781 /* _2_两数相加.swift in Sources */,
 				8F8D183B277EB56B009DF263 /* 排序.swift in Sources */,
@@ -587,6 +594,7 @@
 				8F8D183F277ED83F009DF263 /* _116_填充每个节点的下一个右侧节点指针.swift in Sources */,
 				8FA19FF127846503001F7EE4 /* _43_字符串相乘.swift in Sources */,
 				B8BF356C26439C0A00609E57 /* _3_无重复字符的最长子串.swift in Sources */,
+				B844F03E27800EA100E89E38 /* _509_斐波那契数.swift in Sources */,
 				8F8D1839277EAF6B009DF263 /* 链表反转.swift in Sources */,
 				B861A39B26400BA200486781 /* ListNode.swift in Sources */,
 				B850B6A02650A690002E4EF8 /* _961_重复N次的元素.swift in Sources */,
@@ -720,6 +728,7 @@
 		B816204B2623F1C9005E621C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -729,6 +738,7 @@
 		B816204C2623F1C9005E621C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
