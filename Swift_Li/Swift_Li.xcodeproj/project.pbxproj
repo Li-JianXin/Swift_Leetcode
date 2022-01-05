@@ -20,6 +20,8 @@
 		8F8DAB96277C051D009DF263 /* _1995_统计特殊四元组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DAB95277C051D009DF263 /* _1995_统计特殊四元组.swift */; };
 		8F8DAB98277D8D1C009DF263 /* _876_链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DAB97277D8D1C009DF263 /* _876_链表的中间结点.swift */; };
 		8F8DAB9A277D94C4009DF263 /* _142_环形链表2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DAB99277D94C4009DF263 /* _142_环形链表2.swift */; };
+		8FA19FF127846503001F7EE4 /* _43_字符串相乘.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA19FF027846503001F7EE4 /* _43_字符串相乘.swift */; };
+		8FA1BA8C27854244001F7EE4 /* _70_爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA1BA8B27854244001F7EE4 /* _70_爬楼梯.swift */; };
 		B802E381264018A000AB96FF /* _160_相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E380264018A000AB96FF /* _160_相交链表.swift */; };
 		B802E38B264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */; };
 		B802E38F2641467600AB96FF /* _234_回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E38E2641467600AB96FF /* _234_回文链表.swift */; };
@@ -121,6 +123,8 @@
 		8F8DAB95277C051D009DF263 /* _1995_统计特殊四元组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1995_统计特殊四元组.swift"; sourceTree = "<group>"; };
 		8F8DAB97277D8D1C009DF263 /* _876_链表的中间结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_876_链表的中间结点.swift"; sourceTree = "<group>"; };
 		8F8DAB99277D94C4009DF263 /* _142_环形链表2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_142_环形链表2.swift"; sourceTree = "<group>"; };
+		8FA19FF027846503001F7EE4 /* _43_字符串相乘.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_43_字符串相乘.swift"; sourceTree = "<group>"; };
+		8FA1BA8B27854244001F7EE4 /* _70_爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_70_爬楼梯.swift"; sourceTree = "<group>"; };
 		B802E380264018A000AB96FF /* _160_相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_160_相交链表.swift"; sourceTree = "<group>"; };
 		B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_Offer22_链表倒数第k个字节.swift"; sourceTree = "<group>"; };
 		B802E38E2641467600AB96FF /* _234_回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_234_回文链表.swift"; sourceTree = "<group>"; };
@@ -403,15 +407,16 @@
 				B8BF356B26439C0A00609E57 /* _3_无重复字符的最长子串.swift */,
 				B850B6A726510525002E4EF8 /* _5_最长回文子串.swift */,
 				B850B6AB2651100D002E4EF8 /* _14_最长公共前缀.swift */,
+				8FA19FF027846503001F7EE4 /* _43_字符串相乘.swift */,
 				B859565626451B8800DD6C3E /* _58_最后一个单词长度.swift */,
 				B8BF35642643971A00609E57 /* _151_翻转字符串里的单词.swift */,
 				B8BF35602643942700609E57 /* _242_有效的字母异位词.swift */,
+				B8884ED2266DF05700975394 /* _409_最长回文字符串.swift */,
 				B850B699265022DF002E4EF8 /* _415_字符串相加.swift */,
+				8F8DAB93277B09D5009DF263 /* _557_反转字符串中的单词3.swift */,
 				B8683CA4265D2432002C983A /* _1859_将句子排序.swift */,
 				B8BF355C2643915100609E57 /* 金典_01.09_字符串轮转.swift */,
 				B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */,
-				B8884ED2266DF05700975394 /* _409_最长回文字符串.swift */,
-				8F8DAB93277B09D5009DF263 /* _557_反转字符串中的单词3.swift */,
 			);
 			path = "字符串";
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 			isa = PBXGroup;
 			children = (
 				B85956522645170900DD6C3E /* _53_最大子序列和.swift */,
+				8FA1BA8B27854244001F7EE4 /* _70_爬楼梯.swift */,
 				B87554402643C45A005D477F /* _121_买卖股票的最佳时机.swift */,
 				B8BF35712643BDA500609E57 /* Offer_47_礼物最大价值.swift */,
 			);
@@ -522,6 +528,7 @@
 				8F8D1841277F047F009DF263 /* _507_完美数.swift in Sources */,
 				B8A2DA712668A5CF00BD13ED /* _42_接雨水.swift in Sources */,
 				B8C5E7602632EF7900F23F36 /* _75_颜色分类.swift in Sources */,
+				8FA1BA8C27854244001F7EE4 /* _70_爬楼梯.swift in Sources */,
 				B8BF35722643BDA500609E57 /* Offer_47_礼物最大价值.swift in Sources */,
 				B861A378263C2CD400486781 /* _164_最大间距.swift in Sources */,
 				B8683CAE265E35B5002C983A /* _253_会议室2.swift in Sources */,
@@ -578,6 +585,7 @@
 				8F8DAB94277B09D5009DF263 /* _557_反转字符串中的单词3.swift in Sources */,
 				B81620592623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift in Sources */,
 				8F8D183F277ED83F009DF263 /* _116_填充每个节点的下一个右侧节点指针.swift in Sources */,
+				8FA19FF127846503001F7EE4 /* _43_字符串相乘.swift in Sources */,
 				B8BF356C26439C0A00609E57 /* _3_无重复字符的最长子串.swift in Sources */,
 				8F8D1839277EAF6B009DF263 /* 链表反转.swift in Sources */,
 				B861A39B26400BA200486781 /* ListNode.swift in Sources */,

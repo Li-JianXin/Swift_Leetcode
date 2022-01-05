@@ -18,6 +18,7 @@ class String_14_Solution {
         if strs.count == 0 {
             return ""
         }
+        // 取一个单词 prefix，和后面单词比较，看 prefix 与每个单词相同的最长前缀是多少！遍历所有单词。
         var prefix = strs[0]
         for i in 1..<strs.count {
             while !strs[i].hasPrefix(prefix) {
