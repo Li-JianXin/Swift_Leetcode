@@ -20,12 +20,15 @@ import Foundation
 
 class Solution_179 {
     /*
-     思路是贪心，比较每个元素组合起来的最大值，然后排序，一步步得到可以组成最大值的数组顺序 
+     思路是贪心，比较每个元素组合起来的最大值，然后排序，一步步得到可以组成最大值的数组顺序
      */
     func largestNumber(_ nums: [Int]) -> String {
         if nums.count == 0 {
             return ""
         }
+        /*
+         通过 Unicode 对照算法来比较两个字符串，结果小于 0 ，则代表左边的字符串小于右边，反之亦然。如果结果等于 0 则代表两个字符串在该对照算法下是相等的。
+         */
         let sortNums = nums.sorted { a, b in
             return String(a) + String(b) > String(b) + String(a)
         }
