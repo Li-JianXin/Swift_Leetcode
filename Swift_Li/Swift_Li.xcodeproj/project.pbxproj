@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8F1AFE0F27756ABC00D00989 /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AFE0E27756ABC00D00989 /* _136_只出现一次的数字.swift */; };
 		8F7318A2278E76E1003D8C31 /* _54_螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7318A1278E76E1003D8C31 /* _54_螺旋矩阵.swift */; };
+		8F7318A4278EE484003D8C31 /* _179_最大数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7318A3278EE484003D8C31 /* _179_最大数.swift */; };
 		8F8D1832277EA7EE009DF263 /* _92_反转链表2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */; };
 		8F8D1834277EAD02009DF263 /* _25_K个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1833277EAD02009DF263 /* _25_K个一组翻转链表.swift */; };
 		8F8D1839277EAF6B009DF263 /* 链表反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1838277EAF6B009DF263 /* 链表反转.swift */; };
@@ -115,6 +116,7 @@
 /* Begin PBXFileReference section */
 		8F1AFE0E27756ABC00D00989 /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
 		8F7318A1278E76E1003D8C31 /* _54_螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_54_螺旋矩阵.swift"; sourceTree = "<group>"; };
+		8F7318A3278EE484003D8C31 /* _179_最大数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_179_最大数.swift"; sourceTree = "<group>"; };
 		8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_92_反转链表2.swift"; sourceTree = "<group>"; };
 		8F8D1833277EAD02009DF263 /* _25_K个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_25_K个一组翻转链表.swift"; sourceTree = "<group>"; };
 		8F8D1838277EAF6B009DF263 /* 链表反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "链表反转.swift"; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				8FA1BA9027857A41001F7EE4 /* _122_买卖股票的最佳时机2.swift */,
+				8F7318A3278EE484003D8C31 /* _179_最大数.swift */,
 			);
 			path = "贪心";
 			sourceTree = "<group>";
@@ -588,6 +591,7 @@
 				B888D9B4264BCCB60039FEF7 /* _112_路径总和.swift in Sources */,
 				B8884ED3266DF05700975394 /* _409_最长回文字符串.swift in Sources */,
 				B84A71E8262D81DA0009AB69 /* _27_移除元素.swift in Sources */,
+				8F7318A4278EE484003D8C31 /* _179_最大数.swift in Sources */,
 				B8BF354226420DD100609E57 /* _141_环形链表.swift in Sources */,
 				8F8DAB98277D8D1C009DF263 /* _876_链表的中间结点.swift in Sources */,
 				B850B69A265022DF002E4EF8 /* _415_字符串相加.swift in Sources */,
