@@ -50,8 +50,10 @@ let c = String.Element("b")
 //let res = solution.longestPalindrome("ababa")
 //print(res)
 
-let grid = [[1,3,1],[1,5,1],[4,2,1]]
+let grid = [[1,2,3],[4,5,6],[7,8,9]]
 let offer47 = Offer_47_Solution()
+let offer54 = Solution_54()
+let arrayRes = offer54.spiralOrder(grid)
 let a = offer47.maxValue(grid)
 
 

@@ -25,6 +25,7 @@ class Solution252 {
                return ary1[0] < ary2[0]
            }
            for i in 1..<intervals.count {
+               // 当前会议的开始时间 < 上个会议的结束时间，两个会议冲突
                if intervals[i][0] < intervals[i-1][1] {
                    return false
                }
