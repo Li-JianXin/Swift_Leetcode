@@ -68,6 +68,9 @@ var array = [7,1,5,3,6,4]
 let dp121 = DP_121_Solution()
 dp121.maxProfit_dp(array)
 
+let s373 = Solution_373()
+var res373 = s373.kSmallestPairs([1,7,11], [2,4,6], 3)
+
 var head1 = ListNode(1)
 head1.next = ListNode(2)
 head1.next?.next = ListNode(3)

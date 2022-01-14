@@ -38,6 +38,7 @@ class Solution253 {
                 queue.insert(interval, at: 0)
             }
             
+            // 由于swift不带自优先级队列（大顶堆小顶堆）数据结构，用一个数组排序代替
             queue.sort { (q1, q2) -> Bool in
                 return q1[1] < q2[1]
             }

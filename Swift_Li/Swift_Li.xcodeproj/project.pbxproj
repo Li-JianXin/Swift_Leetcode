@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F1AFE0F27756ABC00D00989 /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AFE0E27756ABC00D00989 /* _136_只出现一次的数字.swift */; };
+		8F4DD552279118A300E20F21 /* _373_查找和最小的K对数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD551279118A300E20F21 /* _373_查找和最小的K对数字.swift */; };
 		8F7318A2278E76E1003D8C31 /* _54_螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7318A1278E76E1003D8C31 /* _54_螺旋矩阵.swift */; };
 		8F7318A4278EE484003D8C31 /* _179_最大数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7318A3278EE484003D8C31 /* _179_最大数.swift */; };
 		8F8D1832277EA7EE009DF263 /* _92_反转链表2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */; };
@@ -115,6 +116,7 @@
 
 /* Begin PBXFileReference section */
 		8F1AFE0E27756ABC00D00989 /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
+		8F4DD551279118A300E20F21 /* _373_查找和最小的K对数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_373_查找和最小的K对数字.swift"; sourceTree = "<group>"; };
 		8F7318A1278E76E1003D8C31 /* _54_螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_54_螺旋矩阵.swift"; sourceTree = "<group>"; };
 		8F7318A3278EE484003D8C31 /* _179_最大数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_179_最大数.swift"; sourceTree = "<group>"; };
 		8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_92_反转链表2.swift"; sourceTree = "<group>"; };
@@ -220,6 +222,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F4DD5502791187E00E20F21 /* 堆 */ = {
+			isa = PBXGroup;
+			children = (
+				8F4DD551279118A300E20F21 /* _373_查找和最小的K对数字.swift */,
+			);
+			path = "堆";
+			sourceTree = "<group>";
+		};
 		8F8D1837277EAEAB009DF263 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +316,7 @@
 		B81620522623F23B005E621C /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				8F4DD5502791187E00E20F21 /* 堆 */,
 				8FA1BA8F27857A41001F7EE4 /* 贪心 */,
 				B8BF35702643BD9500609E57 /* 动态规划 */,
 				B8C57809263028E300F23F36 /* 递归 */,
@@ -619,6 +630,7 @@
 				B8884ECF266DBEA800975394 /* _108_将有序数组转换为二叉搜索树.swift in Sources */,
 				B888D9B0264BC97E0039FEF7 /* _100_相同的树.swift in Sources */,
 				B8683CA9265E077F002C983A /* _252_会议室.swift in Sources */,
+				8F4DD552279118A300E20F21 /* _373_查找和最小的K对数字.swift in Sources */,
 				B850B6A826510525002E4EF8 /* _5_最长回文子串.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
