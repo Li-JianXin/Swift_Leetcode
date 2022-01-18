@@ -13,6 +13,15 @@ import Foundation
 //let str00 = solution.sortSentence(sortString)
 //print(str00)
 
+// 46
+let solution46 = Solution_46()
+let res46 = solution46.permute([1,2,3])
+print(res46)
+// 39
+let solution39 = Solution_39()
+let res39 = solution39.combinationSum([2,3,6,7], 7)
+print(res39)
+
 let solution = Solution253()
 let count = solution.minMeetingRooms([[9,10],[4,9],[4,17]])
 print(count)

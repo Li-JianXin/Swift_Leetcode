@@ -23,80 +23,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E5EEB6D3-A59E-4D17-BD01-DF8D0F7DE4DC"
+            uuid = "0662F957-11D4-47D1-95FF-BF70B4EA5E42"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Swift_Li/Leetcode/&#x5806;/_373_&#x67e5;&#x627e;&#x548c;&#x6700;&#x5c0f;&#x7684;K&#x5bf9;&#x6570;&#x5b57;.swift"
+            filePath = "Swift_Li/Leetcode/&#x56de;&#x6eaf;/_39_&#x7ec4;&#x5408;&#x603b;&#x548c;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "kSmallestPairs(_:_:_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "349EDFA5-8EA5-4131-B09D-1A2643627854"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Swift_Li/Leetcode/&#x5806;/_373_&#x67e5;&#x627e;&#x548c;&#x6700;&#x5c0f;&#x7684;K&#x5bf9;&#x6570;&#x5b57;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "kSmallestPairs(_:_:_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6CB927D8-CBAF-42E6-9797-CA60DD446A35"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Swift_Li/Leetcode/&#x5806;/_373_&#x67e5;&#x627e;&#x548c;&#x6700;&#x5c0f;&#x7684;K&#x5bf9;&#x6570;&#x5b57;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "kSmallestPairs(_:_:_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8BD8D323-DE00-40D4-B8F8-7CED5C6A22A1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Swift_Li/Leetcode/&#x5806;/_373_&#x67e5;&#x627e;&#x548c;&#x6700;&#x5c0f;&#x7684;K&#x5bf9;&#x6570;&#x5b57;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "kSmallestPairs(_:_:_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E1F32778-026C-4C30-AE07-47994F1FA3A2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Swift_Li/Leetcode/&#x5806;/_373_&#x67e5;&#x627e;&#x548c;&#x6700;&#x5c0f;&#x7684;K&#x5bf9;&#x6570;&#x5b57;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "kSmallestPairs(_:_:_:)"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "backtrack(_:_:_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

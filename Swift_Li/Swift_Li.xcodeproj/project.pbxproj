@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8F1AFE0F27756ABC00D00989 /* _136_只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AFE0E27756ABC00D00989 /* _136_只出现一次的数字.swift */; };
 		8F4DD552279118A300E20F21 /* _373_查找和最小的K对数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD551279118A300E20F21 /* _373_查找和最小的K对数字.swift */; };
+		8F4DD5552796691400E20F21 /* _46_全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD5542796691400E20F21 /* _46_全排列.swift */; };
+		8F4DD557279697B200E20F21 /* _39_组合总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD556279697B200E20F21 /* _39_组合总和.swift */; };
 		8F7318A2278E76E1003D8C31 /* _54_螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7318A1278E76E1003D8C31 /* _54_螺旋矩阵.swift */; };
 		8F7318A4278EE484003D8C31 /* _179_最大数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7318A3278EE484003D8C31 /* _179_最大数.swift */; };
 		8F8D1832277EA7EE009DF263 /* _92_反转链表2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */; };
@@ -117,6 +119,8 @@
 /* Begin PBXFileReference section */
 		8F1AFE0E27756ABC00D00989 /* _136_只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_136_只出现一次的数字.swift"; sourceTree = "<group>"; };
 		8F4DD551279118A300E20F21 /* _373_查找和最小的K对数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_373_查找和最小的K对数字.swift"; sourceTree = "<group>"; };
+		8F4DD5542796691400E20F21 /* _46_全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_46_全排列.swift"; sourceTree = "<group>"; };
+		8F4DD556279697B200E20F21 /* _39_组合总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_39_组合总和.swift"; sourceTree = "<group>"; };
 		8F7318A1278E76E1003D8C31 /* _54_螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_54_螺旋矩阵.swift"; sourceTree = "<group>"; };
 		8F7318A3278EE484003D8C31 /* _179_最大数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_179_最大数.swift"; sourceTree = "<group>"; };
 		8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_92_反转链表2.swift"; sourceTree = "<group>"; };
@@ -230,6 +234,15 @@
 			path = "堆";
 			sourceTree = "<group>";
 		};
+		8F4DD5532796679D00E20F21 /* 回溯 */ = {
+			isa = PBXGroup;
+			children = (
+				8F4DD5542796691400E20F21 /* _46_全排列.swift */,
+				8F4DD556279697B200E20F21 /* _39_组合总和.swift */,
+			);
+			path = "回溯";
+			sourceTree = "<group>";
+		};
 		8F8D1837277EAEAB009DF263 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +329,7 @@
 		B81620522623F23B005E621C /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				8F4DD5532796679D00E20F21 /* 回溯 */,
 				8F4DD5502791187E00E20F21 /* 堆 */,
 				8FA1BA8F27857A41001F7EE4 /* 贪心 */,
 				B8BF35702643BD9500609E57 /* 动态规划 */,
@@ -546,6 +560,7 @@
 				8F7318A2278E76E1003D8C31 /* _54_螺旋矩阵.swift in Sources */,
 				B84A7241262ED4B00009AB69 /* _283_移动零.swift in Sources */,
 				B850B69626501951002E4EF8 /* _118_杨辉三角.swift in Sources */,
+				8F4DD557279697B200E20F21 /* _39_组合总和.swift in Sources */,
 				B8BF35512643633000609E57 /* _654_最大二叉树.swift in Sources */,
 				B8BF3555264366FA00609E57 /* _739_每日温度.swift in Sources */,
 				B850B6AC2651100D002E4EF8 /* _14_最长公共前缀.swift in Sources */,
@@ -554,6 +569,7 @@
 				B861A38F263FF0C800486781 /* _169_多数元素.swift in Sources */,
 				B81620572623F23B005E621C /* _206_反转链表.swift in Sources */,
 				B8A96E1626553F860015A799 /* _146_LRU缓存机制.swift in Sources */,
+				8F4DD5552796691400E20F21 /* _46_全排列.swift in Sources */,
 				B888D9B9264BDA2B0039FEF7 /* _101_对称二叉树.swift in Sources */,
 				B850B6A42650AB1C002E4EF8 /* Offer_09_两个栈实现队列.swift in Sources */,
 				B844F03C277BDE1000E89E38 /* _104_二叉树的最大深度.swift in Sources */,
