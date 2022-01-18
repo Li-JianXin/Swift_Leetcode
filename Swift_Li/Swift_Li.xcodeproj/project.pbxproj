@@ -11,6 +11,8 @@
 		8F4DD552279118A300E20F21 /* _373_查找和最小的K对数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD551279118A300E20F21 /* _373_查找和最小的K对数字.swift */; };
 		8F4DD5552796691400E20F21 /* _46_全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD5542796691400E20F21 /* _46_全排列.swift */; };
 		8F4DD557279697B200E20F21 /* _39_组合总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD556279697B200E20F21 /* _39_组合总和.swift */; };
+		8F4DD55927969EB000E20F21 /* _40_组合总和2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD55827969EB000E20F21 /* _40_组合总和2.swift */; };
+		8F4DD55B2796A65E00E20F21 /* _55_跳跃游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DD55A2796A65E00E20F21 /* _55_跳跃游戏.swift */; };
 		8F7318A2278E76E1003D8C31 /* _54_螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7318A1278E76E1003D8C31 /* _54_螺旋矩阵.swift */; };
 		8F7318A4278EE484003D8C31 /* _179_最大数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7318A3278EE484003D8C31 /* _179_最大数.swift */; };
 		8F8D1832277EA7EE009DF263 /* _92_反转链表2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */; };
@@ -121,6 +123,8 @@
 		8F4DD551279118A300E20F21 /* _373_查找和最小的K对数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_373_查找和最小的K对数字.swift"; sourceTree = "<group>"; };
 		8F4DD5542796691400E20F21 /* _46_全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_46_全排列.swift"; sourceTree = "<group>"; };
 		8F4DD556279697B200E20F21 /* _39_组合总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_39_组合总和.swift"; sourceTree = "<group>"; };
+		8F4DD55827969EB000E20F21 /* _40_组合总和2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_40_组合总和2.swift"; sourceTree = "<group>"; };
+		8F4DD55A2796A65E00E20F21 /* _55_跳跃游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_55_跳跃游戏.swift"; sourceTree = "<group>"; };
 		8F7318A1278E76E1003D8C31 /* _54_螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_54_螺旋矩阵.swift"; sourceTree = "<group>"; };
 		8F7318A3278EE484003D8C31 /* _179_最大数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_179_最大数.swift"; sourceTree = "<group>"; };
 		8F8D1831277EA7EE009DF263 /* _92_反转链表2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_92_反转链表2.swift"; sourceTree = "<group>"; };
@@ -239,6 +243,7 @@
 			children = (
 				8F4DD5542796691400E20F21 /* _46_全排列.swift */,
 				8F4DD556279697B200E20F21 /* _39_组合总和.swift */,
+				8F4DD55827969EB000E20F21 /* _40_组合总和2.swift */,
 			);
 			path = "回溯";
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			children = (
 				8FA1BA9027857A41001F7EE4 /* _122_买卖股票的最佳时机2.swift */,
 				8F7318A3278EE484003D8C31 /* _179_最大数.swift */,
+				8F4DD55A2796A65E00E20F21 /* _55_跳跃游戏.swift */,
 			);
 			path = "贪心";
 			sourceTree = "<group>";
@@ -570,6 +576,7 @@
 				B81620572623F23B005E621C /* _206_反转链表.swift in Sources */,
 				B8A96E1626553F860015A799 /* _146_LRU缓存机制.swift in Sources */,
 				8F4DD5552796691400E20F21 /* _46_全排列.swift in Sources */,
+				8F4DD55927969EB000E20F21 /* _40_组合总和2.swift in Sources */,
 				B888D9B9264BDA2B0039FEF7 /* _101_对称二叉树.swift in Sources */,
 				B850B6A42650AB1C002E4EF8 /* Offer_09_两个栈实现队列.swift in Sources */,
 				B844F03C277BDE1000E89E38 /* _104_二叉树的最大深度.swift in Sources */,
@@ -602,6 +609,7 @@
 				B8C578132630298400F23F36 /* _70_爬楼梯.swift in Sources */,
 				B861A3932640091A00486781 /* _2_两数相加.swift in Sources */,
 				8F8D183B277EB56B009DF263 /* 排序.swift in Sources */,
+				8F4DD55B2796A65E00E20F21 /* _55_跳跃游戏.swift in Sources */,
 				8F1AFE0F27756ABC00D00989 /* _136_只出现一次的数字.swift in Sources */,
 				B861A35E263BDFF000486781 /* LITree.swift in Sources */,
 				B8BF354D26435CCB00609E57 /* _155_最小栈.swift in Sources */,
