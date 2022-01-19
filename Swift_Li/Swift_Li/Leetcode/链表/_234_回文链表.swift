@@ -28,6 +28,7 @@ class LinkList_234_Solution {
         if head?.next == nil {
             return true
         }
+        // 只有2个节点
         if head?.next?.val == head?.val && head?.next?.next == nil {
             return true
         }

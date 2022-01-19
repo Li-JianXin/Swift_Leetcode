@@ -22,6 +22,11 @@ let solution39 = Solution_39()
 let res39 = solution39.combinationSum([2,3,6,7], 7)
 print(res39)
 
+//56
+let solution56 = Solution_56()
+let res56 = solution56.merge([[1,3],[2,6],[8,10],[15,18]])
+print(res56)
+
 let solution = Solution253()
 let count = solution.minMeetingRooms([[9,10],[4,9],[4,17]])
 print(count)

@@ -33,6 +33,9 @@
 		B802E38B264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */; };
 		B802E38F2641467600AB96FF /* _234_回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E38E2641467600AB96FF /* _234_回文链表.swift */; };
 		B802E394264209B600AB96FF /* _Offer25_合并两个反序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802E393264209B600AB96FF /* _Offer25_合并两个反序链表.swift */; };
+		B81073BE2797B89A00486C0C /* _8_字符串转换整数atoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81073BD2797B89A00486C0C /* _8_字符串转换整数atoi.swift */; };
+		B81073C02797C03800486C0C /* _4_寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81073BF2797C03800486C0C /* _4_寻找两个正序数组的中位数.swift */; };
+		B81073C22797C67000486C0C /* _56_合并区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81073C12797C67000486C0C /* _56_合并区间.swift */; };
 		B81620472623F1C9005E621C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620462623F1C9005E621C /* main.swift */; };
 		B81620572623F23B005E621C /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620542623F23B005E621C /* _206_反转链表.swift */; };
 		B81620592623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift in Sources */ = {isa = PBXBuildFile; fileRef = B81620562623F23B005E621C /* _237_删除链表的节点(参数只有要删除的节点).swift */; };
@@ -145,6 +148,9 @@
 		B802E38A264136D700AB96FF /* _Offer22_链表倒数第k个字节.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_Offer22_链表倒数第k个字节.swift"; sourceTree = "<group>"; };
 		B802E38E2641467600AB96FF /* _234_回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_234_回文链表.swift"; sourceTree = "<group>"; };
 		B802E393264209B600AB96FF /* _Offer25_合并两个反序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_Offer25_合并两个反序链表.swift"; sourceTree = "<group>"; };
+		B81073BD2797B89A00486C0C /* _8_字符串转换整数atoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_8_字符串转换整数atoi.swift"; sourceTree = "<group>"; };
+		B81073BF2797C03800486C0C /* _4_寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_4_寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
+		B81073C12797C67000486C0C /* _56_合并区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_56_合并区间.swift"; sourceTree = "<group>"; };
 		B81620432623F1C9005E621C /* Swift_Li */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_Li; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81620462623F1C9005E621C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B81620542623F23B005E621C /* _206_反转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
@@ -398,6 +404,8 @@
 				B8C5E7632635924000F23F36 /* 金典_6_部分排序.swift */,
 				B861A38A263F838B00486781 /* Offer_39_出现次数超过一半的数字.swift */,
 				B86191B72639632500486781 /* Offer_63_股票最大利润.swift */,
+				B81073BF2797C03800486C0C /* _4_寻找两个正序数组的中位数.swift */,
+				B81073C12797C67000486C0C /* _56_合并区间.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -467,6 +475,7 @@
 				B8683CA4265D2432002C983A /* _1859_将句子排序.swift */,
 				B8BF355C2643915100609E57 /* 金典_01.09_字符串轮转.swift */,
 				B89B8D7D2626E2B200C4627A /* Offer_58_reverseLeftWords.swift */,
+				B81073BD2797B89A00486C0C /* _8_字符串转换整数atoi.swift */,
 			);
 			path = "字符串";
 			sourceTree = "<group>";
@@ -570,6 +579,7 @@
 				B8BF35512643633000609E57 /* _654_最大二叉树.swift in Sources */,
 				B8BF3555264366FA00609E57 /* _739_每日温度.swift in Sources */,
 				B850B6AC2651100D002E4EF8 /* _14_最长公共前缀.swift in Sources */,
+				B81073BE2797B89A00486C0C /* _8_字符串转换整数atoi.swift in Sources */,
 				B8BF35482643586000609E57 /* _20_有效的括号.swift in Sources */,
 				B81620472623F1C9005E621C /* main.swift in Sources */,
 				B861A38F263FF0C800486781 /* _169_多数元素.swift in Sources */,
@@ -588,6 +598,7 @@
 				B8683CAE265E35B5002C983A /* _253_会议室2.swift in Sources */,
 				B8683CA5265D2432002C983A /* _1859_将句子排序.swift in Sources */,
 				B87554452643C8D2005D477F /* _15_三数之和.swift in Sources */,
+				B81073C22797C67000486C0C /* _56_合并区间.swift in Sources */,
 				8FA1BA9127857A41001F7EE4 /* _122_买卖股票的最佳时机2.swift in Sources */,
 				B861A361263BEAB500486781 /* _94_二叉树的中序遍历.swift in Sources */,
 				B86191B82639632500486781 /* Offer_63_股票最大利润.swift in Sources */,
@@ -620,6 +631,7 @@
 				B861A36A263BF74D00486781 /* _Offer24_反转链表.swift in Sources */,
 				B81C6A0E266F225900B6B8C5 /* _202_快乐数.swift in Sources */,
 				B816303D26241946005E621C /* _704_二分查找.swift in Sources */,
+				B81073C02797C03800486C0C /* _4_寻找两个正序数组的中位数.swift in Sources */,
 				B861A381263C39B600486781 /* _7_整数反转.swift in Sources */,
 				B861A365263BEF1600486781 /* _145_二叉树的后序遍历.swift in Sources */,
 				B8BF35612643942700609E57 /* _242_有效的字母异位词.swift in Sources */,
